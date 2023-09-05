@@ -1,0 +1,67 @@
+{
+    "editor.fontLigatures": false,
+    "debug.console.fontFamily": "fira code",
+    "editor.fontFamily": "'dejavu sans mono', 'pingfang sc', monospace",
+
+     
+    // "editor.tokenColorCustomizations": {
+    //     "comments": "#7d7b7b", // 注释
+    //   //  "keywords": "#0a0", // 关键字
+    //    // "variables": "#f00", // 变量名
+    //    "strings": "#036631e3", // 字符串
+    //     //"functions": "#5b99fcc9", // 函数名
+    //    "numbers": "#da7c19" // 数字
+    // },
+    // "editor.fontVariations": false,
+    // "editor.semanticTokenColorCustomizations": {
+    
+    // },
+
+    //vim
+    "editor.lineNumbers": "relative",
+    "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+    
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before":["J"],
+            "commands":[],
+            "after":["5","j"]
+        },
+        {
+            "before":["K"],
+            "commands":[],
+            "after":["5","k"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-w>":false
+    },
+    "markdown.preview.fontSize": 15,
+    "chat.editor.fontSize": 15,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "Codegeex.Privacy": false,
+    "git.autorefresh": false,
+    "terminal.integrated.fontFamily": "fira code,'pingfang sc'",
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Default Dark+"
+}

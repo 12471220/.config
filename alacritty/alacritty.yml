@@ -1,0 +1,37 @@
+# font setting
+font:
+  normal:
+    family: firacode
+    style: Regular
+
+  bold:
+    family: firacode
+    style: Bold
+
+  italic:
+    family: firacode
+    style: Italic
+
+  bold_italic:
+    family: firacode
+    style: Bold Italic
+
+  size: 11
+
+# window setting
+decorations: "none"
+window:
+  dimensions:
+    columns: 100
+    lines: 35
+      #  opacity: 0.9 #half touming
+
+# title setting
+#title: lx's terminal
+#dynamic_title: true
+
+scrolling:
+  history: 3000
+  multiplier: 3
+
+
