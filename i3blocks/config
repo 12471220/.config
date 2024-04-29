@@ -1,0 +1,19 @@
+separator_block_width=30
+[volume]
+label=vol 
+command=$HOME/.config/i3blocks/scripts/mine/volume.sh
+interval=5
+
+[brightness]
+label=bl 
+command=$HOME/.config/i3blocks/scripts/mine/brightness.sh
+interval=5
+[battery]
+label=bat 
+command=$HOME/.config/i3blocks/scripts/mine/battery.sh
+interval=30
+
+[time]
+command= date +"%a %m/%d %H:%M"
+interval=20
+

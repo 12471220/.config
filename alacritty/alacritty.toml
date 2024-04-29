@@ -1,0 +1,29 @@
+[font.normal]
+family = "firacode nerd font"
+style = "Regular"
+
+[font.bold]
+family = "firacode nerd font"
+style = "Bold"
+
+[font.italic]
+family = "firacode nerd font"
+style = "Italic"
+
+[font.bold_italic]
+family = "firacode nerd font"
+style = "Bold Italic"
+
+[font]
+size = 11
+
+[window.dimensions]
+columns = 100
+lines = 35
+[window]
+opacity = 0.9 #half touming
+
+[scrolling]
+history = 3000
+multiplier = 3
+

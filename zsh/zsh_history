@@ -1,0 +1,1270 @@
+pwd
+ls
+whoami
+nf
+nvidia-smi
+clear
+ls
+pwd
+ll
+l
+rm .bash*
+l
+rm .zshrc
+ls
+l
+ls
+pwd
+cd 
+cd /etc/p
+cd /etc
+sudo nvim profile
+ls
+brightnessctl
+ls
+acpi
+ls
+clear
+sudo pacman -S i3blocks
+ls
+pwd
+cd down
+cd 
+cd dwon
+cd Downloads
+ls
+mkdir ~/.local/share/fonts
+gunzip FiraCode.zip
+ls
+unzip
+ls
+sudo pacman -S p7z
+sudo pacman -S p7zip
+7z x FiraCode.zip
+ls
+rm *
+ls
+7z help
+ls
+7z --h
+7z -h
+7z ah FiraCode.zip
+ls
+7z x FiraCode.zip -o ~/.local/share/fonts
+ls
+7z x FiraCode.zip -o~/.local/share/fonts
+cd ~/.local/share/fonts
+ls
+ls
+wpd
+cd -
+ls
+cd ~
+ls
+cd ..
+ls
+cd Dow
+wpd
+pwd
+cd Downloads
+ll
+cd sc
+ls
+cd Downloads
+ls
+ll
+rm ~
+ls
+ll
+rm -r ~
+pwd
+ls
+l
+rm -r ./~
+ls
+7z x FiraCode.zip -o
+ls
+pwd
+ll
+ls
+7z x FiraCode.zip -ofiracode
+ls
+cd firacode
+ls
+cd ..
+ls
+ls
+ firacode -r ~/.local/share/fonts
+ firacode -r ~/.local/share/fonts/
+ls
+cp -r ./firacode ~/.local/share/fonts
+ls
+rm firaCode
+rm FiraCode.zip
+ls
+ls
+ra
+ls
+sudo pacman -S joshuto
+paru -S joshuto
+paru -S joshuto
+ls
+joshuto
+ls
+cd 
+cd .local
+s
+ls
+pwd
+sudo pacman -Syu
+ls
+mkdir ~/.local/share/fonts
+ls
+cd .local/sh
+cd .local/share
+ls
+cd .local
+ls
+mkdir share
+ls
+cd share
+ls
+cd ..
+cd state
+ls
+cd 
+cd .local
+ls
+cd share
+ls
+mkdir fonts
+ls
+cd fonts
+ls
+joshuto
+sudo fc-cache -f -v
+joshuto
+joshuto
+ls
+pwd
+whoami
+cd .config/i3
+ls
+cd ~/.config/nvim
+ls
+cd lua
+l
+cd core
+ls
+vim options.lua
+ls
+nvim options.lua
+ls
+cd ..
+ls
+cd plugins
+ls
+nvim plugins-setup.lua
+ls
+cd ..
+ls
+cd core
+ls
+vim options.lua
+ls
+nvim options.lua
+nvim
+ls
+pwd
+cd
+cd .config/zsh
+nvim .zshrc
+ls
+vim
+vim
+pwd
+ls
+cd .config
+ls
+cd i3
+ls
+vim config
+sudo pacman -S brightnessctl
+brightnessctl
+ls
+pwd
+sudo pacman -Syu
+nf
+clear
+sudo pacman -Ss alias
+ls
+ls
+cd 
+cd .config/i3
+vim config
+pwd
+ls
+ls
+reboot
+lsblk
+mount /dev/nvme0n1p5 /mnt
+sudo mount /dev/nvme0n1p5 /mnt
+ls
+cd /mnt/
+ls
+cd EFI
+ls
+cd
+pwd
+grub-mkconfig
+sudo grub-mkconfig
+sudo grub-mkconfig >>/boot/grub/grub.cfg
+sudo su
+startx
+ls
+cd .config/i3
+vim config
+sudo pacman -S os-prober
+sudo grub-mkconfig
+sudo grub-mkconfig>/boot/grub/grub.cfg
+su 
+pwd
+ls
+startx
+brightnessctl
+pwd
+cd /etc/X11
+cd xorg.conf.d
+ls
+ls
+cd ..
+ls
+xbacklight
+alsamixer
+systemctl status blacklight
+lspci -k | grep -A 2 -E "(VGA|3D)"
+cd /sys/class/backlight/
+ls
+cat nvidia_0
+cd nvidia_0
+ls
+cat device
+cd device
+ls
+cat backlight
+cd backlight
+ls
+cd nvidia_0
+ls
+cd
+cpid
+acpid
+cd /etc/systemd
+ls
+vim logind.conf
+sudo nvim logind.conf
+cd
+ls
+mkdir Documents
+cd Documents
+l
+mkdir doc
+cd doc
+ls
+vim installed
+sudo pacman -S alsa-utils
+alsa
+alsamixer
+ls
+free -h
+cd /etc/X11/xorg.conf.d
+ls
+libinput
+sudo nvim touchpad.conf
+startx
+ls
+pwd
+ll
+l
+cd Documents
+ls
+cd doc
+ls
+vim note.md
+cd /etc/X11/xorg.conf.d
+vim touchpad.conf
+tmux 
+vim touchpad.conf
+pwd
+acpi
+ls
+cd /sys/class/backlight/nvidia_0
+ls
+cat brightness
+pwd
+ls
+cat brightness
+pwd
+ls
+brightnessctl
+vim /etc/mkinitcpio.conf
+ls
+vim /etc/mkinitcpio.conf
+tmux
+vim /etc/mkinitcpio.conf
+sudo vim /etc/mkinitcpio.conf
+sudo nvim /etc/mkinitcpio.conf
+cd /etc/pacman.d/
+ls
+mkdir hooks
+sudo mkdir -p hooks
+ls
+cd hooks
+ls
+sudo nvim nvidia.hook
+ls
+sudo pacman -S nvidia-lts
+ls
+sudo nvim nvidia.hook
+ls
+ls
+vim nvidia.hook
+ls
+pwd
+vim /etc/mkinitcpio.conf
+sudo vim /etc/mkinitcpio.conf
+sudo nvim /etc/mkinitcpio.conf
+sudo pacman -S nvidia-lts
+ls
+sudo pacman -S nvidia-lts
+sudo pacman -S nvidia-lts
+sudo nvim /etc/mkinitcpio.conf
+sudo pacman -S nvidia-lts
+pwd
+ls
+nvidia-smi
+nvidia-smi
+nvidia-drm
+lsmod|grep nvidia
+reboot
+pwd
+brightnessctl
+nvidia-drm
+nvidia-smi
+nvidia-smi
+lsmod|grep nvidia
+pwd
+startx
+ls
+brightnessctl seT 
+brightnessctl set 40
+ls
+pwd
+cd .config/i3
+ls
+vim config
+xinput
+sudo pacman -S xinput
+sudo pacman -S xorg-xinput
+xinput
+ls
+vim Documents/doc/installed
+vim config
+xinput set-button-map 15 3 2 1
+xinput
+cd /etc/default/
+sudo nvim grub
+ls
+vim .config/i3/config
+amixer sget Master\
+
+amixer sset Master 5%+\
+
+pwd
+alsa
+pwd
+cd 
+cd .config/zsh
+ls
+vim zimrc
+ls
+vim .zshrc
+pwd
+vim
+ls
+pwd
+cd ..
+ls
+ls
+pwd
+ll
+cd
+ls
+cd config
+ls
+cp alacritty ~/.config
+cp -r ./alacritty ~/.config
+ls
+cd 
+ls
+cd config
+cd
+cd .config
+vim alacritty
+cd alacritty
+vim alacritty.yml
+ls
+tmux
+vim .config/alacritty
+vim .config/alacritty/alacritty.yml
+cd .config/alacritty
+ls
+mv alacritty.yml alacritty.toml
+ls
+cd .config/alacritty
+vim alacritty.toml
+ls
+pwd
+ls
+pwd
+ll
+vim
+l
+pacman -Ss kitty
+sudo pacman -S kitty
+ls
+ls
+ls
+nf
+ll
+pw
+vim
+wpd
+pwd
+whoami
+cd
+ll
+l
+nf
+nf
+nf
+nf
+sudo pacman -Rsn kitty
+ls
+pwd
+ls
+pkill kitty
+ls
+pwd
+sudo pacman -Rsn kitty
+sudo pacman -Qs kitty
+pacman -Ss kitty
+l
+sudo pacman -Ss alacritty
+paru -Ss alacritty
+paru -S alacritty-git
+nf
+htop
+top
+btop
+ls
+pwd
+ls
+nf
+l
+cd
+pwd
+tmux ls
+tmux attach 
+ls
+ls
+ls
+cd
+ls
+l
+kitty
+paru -Ss kitty
+paru -Ss vscode
+ra
+paru -Ss visual-studio
+paru -S visual-studio-bin
+paru -S visual-studio-code-bin
+code
+alsa
+cd Documents/doc
+ls
+vim installed
+ls
+pwd
+ls
+pwd
+alsa
+sudo pacman -Rsn alsa-utils
+sudo pacman -S alsa-firmware
+alsa
+amixer scontrols\
+
+amixer
+amixer
+pamixer
+pacman -Ss pamixer
+sudo pacman -S pamixer
+pamixer
+mv installed installed.md
+pulseaudio --check\
+
+sudo pacman -S pulseaudio
+pactl
+pactl
+pamixer
+sudo pacman -S pulseaudio
+vim installed.md
+pamixer
+pwd
+reboot
+pamixer
+ls
+pamxier
+pamixer
+ls
+startx
+pactl
+pactl list sinks
+ls
+pamixer
+pamixer --get-volume
+ls
+pwd
+ll
+pwd
+cd .config
+ls
+rm -rf kitty
+mkdir i3blocks
+ls
+cd i3blocks
+ls
+ls
+vim config
+ls
+l
+cd 
+ls
+mkdir repositories
+ls
+cd repositories
+ls
+pwd
+git clone https://github.com/12471220/dwm-6.5.git
+ls
+cd dwm-6.5
+ls
+cd scripts
+ls
+vim autostart.sh
+vim trayer.sh
+ls
+vim dwm-bar.sh
+code .
+ls
+cd .config/i3blocks
+ls
+vim config
+ls
+code .
+ls
+cd .config/i3
+cd ..
+cd i3blocks
+ls
+mkdir scripts
+ls
+cd scripts
+ls
+pwd
+cd ..
+code .
+ls
+cd scripts
+ls
+pwd
+chmod +x battery.sh
+ls
+./battery.sh
+sudo pacman -S acpi
+ls
+ls
+pwd
+cd .config
+./battery.sh
+ls
+ls
+ls
+ls
+mkdir mine
+ls
+ra
+ls
+git clone https://github.com/vivien/i3blocks-contrib.git
+lls
+ls
+date +"%a %m/%d %H:%M"
+date +"%a %m/%d %H:%M"
+pwd
+ echo `brightnessctl | grep -o "(.*" | tr -d "(%)"`
+echo /sys/class/firmware
+ls
+brightnessctl
+ls
+cd .config/i3blocks
+ls
+cd scripts
+ls
+cd mine
+ls
+./battery.sh
+$HOME/.config/i3blocks/mine/battery.sh
+cd
+$HOME/.config/i3blocks/mine/battery.sh
+pwd
+$HOME/.config/i3blocks/scripts/mine/battery.sh
+ls
+cd mine
+ls
+chmod +x brightness.sh
+./brightness.sh
+chmod +x volume.sh
+ls
+ls
+cd .config/i3
+ls
+vim config
+sudo pacman -Syu
+sudo pacman -S feh
+ls
+ls
+vim config
+sudo pacman -S picom
+ls
+cd
+cd .config
+ls
+mkdir picom
+ls
+cd picom
+vim picom.sample
+vim Documents/doc/installed.md
+ls
+ls
+cd .config/picom
+ls
+mkdir log
+ls
+pkill picom
+ls
+mv picom.sample picom.conf
+a
+ra
+/ls
+ls
+cd
+cd .config/i3
+ls
+vim config
+ls
+startx
+ls
+wpd
+ls
+cd .config/i3
+vim config
+ls
+cd .config/tm
+cd ..
+cd tmux
+ls
+vim tmux.conf
+ls
+cd plugins
+ls
+cd tpm
+ls
+cd ..
+pwd
+rm -r tpm
+ls
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux
+ls
+cd ..
+ls
+vim tmux.conf
+ls
+source tmux.conf
+exit
+tmux
+ls
+tmux source
+ls
+ls
+cd ..
+ls
+tmux source tmux.conf
+ls
+cd plugins
+ls
+cd ..
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+cd
+l
+rm -rf tmux
+ls
+exit
+tmux
+ls
+pwd
+sudo pacman -Rsn $(pacman -Qtdq)
+ls
+nf
+pwd
+sudo pacman -S kitty
+sudo pacman -S st
+paru -Ss st
+cd
+pacman -Ss st
+pacman -Ss st|grep terminal
+pwd
+ls
+vim .config/picom/picom.conf
+paru -Ss linuxqq
+paru -S linuxqq
+paru -Ss wechat
+vim .Xresources
+ls
+startx
+xrdb ~/.Xresources
+l
+cd config
+ls
+cp -r vscode ~/.vscode
+cd
+vim .Xresources
+xrdb ~/.Xresources
+xfconf-query -c xsettings -p /Net/ThemeName
+cd .config/gtk-3.0
+ls
+ls
+c
+cd
+vim .Xresources
+cd -
+vim settings.ini
+code .
+startx
+ls
+cd /mnt
+ls
+mkdir upan
+sudo mkdir upan
+ls
+cd upan
+cd ..
+ll
+lsblk
+sudo mount /dev/sda1 upan
+cd upan
+ls
+cd arch_data
+ls
+cd config
+ls
+cd gtk-3.0
+ls
+vim settings.ini
+cp settings.ini ~/.config/gtk-3.0
+cd
+cd .config/gtk-3.0
+ls
+vim settings.ini
+sudo umount /dev/sda1
+pacman -Ss yesplaymusic
+paru -Ss yuzu
+lsblk
+df
+cd .config/gtk-3.0
+ls
+vim settings.ini
+lsblk
+ls
+mkdir -p Pictures/wallpaper
+cd Pictures
+ra
+ls
+vim .config/i3/config
+cd .config
+c
+cd 
+cd .config/i3
+ls
+vim config
+cd .config/alacritty
+vim con
+vim alacritty.toml
+cd ../picom
+ls
+cd log
+ls
+cd ..
+vim picom.conf
+sudo pacman -Rsn picom.conf
+sudo pacman -Rsn picom
+pacman -Qs
+pacman -Qt
+vim picom.conf
+ls
+cd .config/alacritty
+ls
+vim alacritty.toml
+cd ..
+cd i3
+vim config
+startx
+ls
+cd .config
+ls
+cd alacritty
+vim alacritty.toml
+cd
+ls
+pacman -Ss wps
+paru -Ss wps
+paru -Ss apple-emoji
+paru -S ttf-apple-emoji
+pacman -Ss idea
+sudo pacman -S intelij-idea-community-edition
+sudo pacman -S intellij-idea-community-edition
+cd repositories
+ls
+mkdir mine
+ls
+cd mine
+ls
+mkdir java
+ls
+sudo pacman -Rsn idea
+pacman -Qt 
+sudo pacman -Rsn intellij-idea-community-edition
+paru -Ss idea
+paru -Ss intelij-idea
+paru -S intellij-idea-community-edition
+paru -S intellij-idea-ultimate-edition
+nf
+nf
+nf
+tmux
+exit
+sudo pacman -Ss picom
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+nf
+ls
+nf
+nf
+nf
+nf
+java
+java --version
+ls
+: 1714326893:0;cd 
+: 1714326895:0;cd .local
+: 1714326896:0;ls
+: 1714326897:0;cd share
+: 1714326898:0;ls
+: 1714326902:0;cd ..
+: 1714326903:0;ls
+: 1714326915:0;mkdir env
+: 1714326915:0;ls
+: 1714326917:0;cd env
+: 1714326917:0;l
+: 1714326921:0;mkdir java
+: 1714326921:0;ls
+: 1714326931:0;ls
+: 1714326938:0;mv ~/Downloads ./
+: 1714326939:0;ls
+: 1714326948:0;pwd
+: 1714326949:0;l
+: 1714326951:0;cd Downloads
+: 1714326952:0;ls
+: 1714326963:0;cd ..
+: 1714326966:0;mv Downloads ~
+: 1714326976:0;mv ~/Downloads/jdk-17_linux-x64_bin.tar.gz ./
+: 1714326977:0;ls
+: 1714326985:0;tar -xzf ./jdk-17_linux-x64_bin.tar.gz
+: 1714326987:0;ls
+: 1714326994:0;ra
+: 1714327001:0;cd jdk-17.0.11
+: 1714327002:0;ls
+: 1714327009:0;cd bin
+: 1714327009:0;ls
+: 1714327012:0;ls
+: 1714327021:0;cd $ZDOTDIR
+: 1714327022:0;ls
+: 1714327023:0;vim .zshrc
+: 1714327068:0;ls
+: 1714327111:0;java --version
+: 1714327136:0;intellij-idea-ultimate-edition
+: 1714327165:0;ls
+: 1714327168:0;cd .config/i3
+: 1714327170:0;vim config
+: 1714327284:0;startx
+: 1714327307:0;intellij-idea-ultimate-edition
+: 1714327334:0;reboot
+: 1714352809:0;startx
+: 1714352848:0;vim .config/i3/config
+: 1714352863:0;ls
+: 1714352864:0;reboot
+: 1714352896:0;nf
+: 1714352900:0;startx
+: 1714365083:0;startx
+: 1714365093:0;brightnessctl
+: 1714365908:0;cd .config
+: 1714365908:0;ls
+: 1714365915:0;rm -r chromium
+: 1714365923:0;cd
+: 1714365932:0;cd .chache
+: 1714365940:0;l
+: 1714365943:0;cd .cache
+: 1714365944:0;ls
+: 1714365949:0;cd google-chrome
+: 1714365949:0;ls
+: 1714365951:0;cd Default
+: 1714365951:0;ls
+: 1714365955:0;cd Cache
+: 1714365956:0;ls
+: 1714365957:0;cd Cache_Data
+: 1714365958:0;ls
+: 1714365961:0;ra
+: 1714366122:0;cd .config/i3
+: 1714366122:0;ls
+: 1714366128:0;vim config
+: 1714366178:0;sudo pacman -Su
+: 1714366758:0;sudo pacman -Ss pycharm
+: 1714366774:0;sudo pacman -S pycharm-community-edition
+: 1714366830:0;paru -Ss pycharm
+: 1714366842:0;paru -S pycharm-professional
+: 1714366873:0;sudo pacman -S pycharm-community-edition
+: 1714366909:0;sudo pacman -S pycharm-community-edition
+: 1714366920:0;java
+: 1714366922:0;java -v
+: 1714366927:0;java -version
+: 1714366947:0;sudo pacman -S pycharm-community-edition
+: 1714366963:0;nf
+: 1714366965:0;nf
+: 1714366967:0;nf
+: 1714366969:0;nf
+: 1714367255:0;python
+: 1714367259:0;ls
+: 1714367263:0;gcc
+: 1714367265:0;gcc -v
+: 1714367299:0;pwd
+: 1714367300:0;nf
+: 1714367457:0;ls
+: 1714367457:0;nf
+: 1714367462:0;poweroff
+: 1714368340:0;nf
+: 1714368343:0;pwd
+: 1714368346:0;startx
+: 1714368395:0;cd /etc/default/
+: 1714368398:0;vim grub
+: 1714368475:0;sudo nvim grub
+: 1714368614:0;sudo pacman -S os-prober
+: 1714368617:0;ls
+: 1714368621:0;su
+: 1714368655:0;ls
+: 1714368703:0;ls
+: 1714368705:0;df
+: 1714368707:0;lsblk
+: 1714368717:0;mount /dev/nvme0n1p5 /mnt/tmp
+: 1714368726:0;sudo mount /dev/nvme0n1p5 /mnt/tmp
+: 1714368728:0;lsblk
+: 1714368733:0;su
+: 1714368811:0;ls
+: 1714368815:0;sudo nvim grub
+: 1714368914:0;ls
+: 1714368918:0;su
+: 1714369110:0;brightnessctl set 40
+: 1714369115:0;brightnessctl set 40%
+: 1714369120:0;brightnessctl set 40%
+: 1714369124:0;brightnessctl
+: 1714369140:0;startx
+: 1714369186:0;pkill cfw
+: 1714369220:0;brightnessctl
+: 1714369221:0;ls
+: 1714369333:0;ls
+: 1714369335:0;cd repositories
+: 1714369336:0;ls
+: 1714369338:0;cd mine
+: 1714369338:0;ls
+: 1714369342:0;ls
+: 1714369343:0;cd java
+: 1714369344:0;ls
+: 1714369350:0;l
+: 1714369351:0;ll
+: 1714369355:0;git clone https://github.com/12471220/springbootLearn.git
+: 1714369360:0;ls
+: 1714369362:0;cd springbootLearn
+: 1714369362:0;ls
+: 1714369367:0;rm -r out
+: 1714369367:0;ls
+: 1714369371:0;pwd
+: 1714369505:0;sudo pacman -Ss htop
+: 1714369510:0;pacman -S htop
+: 1714369515:0;sudo pacman -S htop
+: 1714369519:0;htop
+: 1714372060:0;nmtui
+: 1714372079:0;nmtui
+: 1714372110:0;nmtui
+: 1714372555:0;pacman -Ss typora
+: 1714372559:0;paru -Ss typora
+: 1714372579:0;paru -Ss typora
+: 1714372588:0;paru -S typora
+: 1714372680:0;ls
+: 1714372682:0;cd repositories
+: 1714372683:0;ls
+: 1714372691:0;mkdir learn
+: 1714372693:0;cd learn
+: 1714372693:0;ls
+: 1714372697:0;git clone https://github.com/12471220/learnCrawler.git
+: 1714372700:0;ls
+: 1714372702:0;cd learn
+: 1714372702:0;ls
+: 1714372919:0;ls
+: 1714372920:0;cd .config
+: 1714372920:0;lsc
+: 1714372932:0;mkdir ideavim
+: 1714372935:0;cd ideavim
+: 1714372935:0;ls
+: 1714372943:0;vim .ideavimrc
+: 1714373104:0;ls
+: 1714373107:0;vim .ideavimrc
+: 1714373557:0;ls
+: 1714373559:0;ls
+: 1714373593:0;ls
+: 1714373594:0;cd .con
+: 1714373594:0;ls
+: 1714373596:0;cd
+: 1714373597:0;pwd
+: 1714373599:0;ls
+: 1714373690:0;ls
+: 1714373691:0;cd .config
+: 1714373692:0;cd
+: 1714373693:0;cd Documents
+: 1714373694:0;ls
+: 1714373695:0;cd doc
+: 1714373696:0;ls
+: 1714373697:0;vim note.md
+: 1714373717:0;ls
+: 1714373718:0;cd .config/n
+: 1714373718:0;slc
+: 1714373720:0;ls
+: 1714373722:0;cd .config
+: 1714373727:0;cd nvim
+: 1714373727:0;ls
+: 1714373730:0;cd lua
+: 1714373730:0;ls
+: 1714373733:0;cd core
+: 1714373733:0;ls
+: 1714373735:0;vim keymaps.lua
+: 1714373744:0;ls
+: 1714373747:0;vim options.lua
+: 1714373757:0;cd ..
+: 1714373757:0;ls
+: 1714373759:0;cd plugins
+: 1714373760:0;ls
+: 1714373762:0;cd ..
+: 1714373762:0;ls
+: 1714373763:0;cd ..
+: 1714373764:0;ls
+: 1714373766:0;vim init.lua
+: 1714373772:0;ra
+: 1714373947:0;ls
+: 1714373947:0;cd 
+: 1714373948:0;cd .config
+: 1714373949:0;ls
+: 1714373966:0;mv ideavim IdeaVim
+: 1714373966:0;ls
+: 1714373968:0;cd IdeaVim
+: 1714373969:0;ls
+: 1714373970:0;ll
+: 1714373977:0;cd ..
+: 1714373977:0;ls
+: 1714373983:0;cd IdeaVim
+: 1714373983:0;ls
+: 1714373991:0;vim ideavim
+: 1714374016:0;ls
+: 1714374019:0;ls
+: 1714374037:0;mv ideavim ideavimrc
+: 1714374037:0;ls
+: 1714374038:0;vim ideavimrc
+: 1714374072:0;ls
+: 1714374073:0;vim ideavimrc
+: 1714374214:0;l
+: 1714374216:0;cd .m2
+: 1714374217:0;ls
+: 1714374231:0;cd
+: 1714374231:0;ls
+: 1714374232:0;l
+: 1714374235:0;cd .tmux
+: 1714374235:0;ls
+: 1714374237:0;cd pl
+: 1714374239:0;cd plugins
+: 1714374239:0;ls
+: 1714374241:0;cd tpm
+: 1714374241:0;ls
+: 1714374242:0;cd
+: 1714374243:0;ls
+: 1714374246:0;rm -r .tmux
+: 1714374251:0;rm -rf .tmux
+: 1714374251:0;ls
+: 1714374259:0;tmux new -s main
+: 1714374489:0;go
+: 1714374492:0;pdw
+: 1714374493:0;pwd
+: 1714374493:0;ls
+: 1714374494:0;go
+: 1714374496:0;pacman -Ss go
+: 1714374505:0;sudo pacman -S go
+: 1714374543:0;l
+: 1714374547:0;ls
+: 1714374549:0;pwd
+: 1714374640:0;ls
+: 1714374644:0;cd .config/zsh
+: 1714374646:0;vim .zshrc
+: 1714374731:0;ls
+: 1714374734:0;tmux attach 
+: 1714374735:0;ls
+: 1714374742:0;$GOPATH
+: 1714374746:0;echo $GOPATH
+: 1714374747:0;ls
+: 1714374749:0;ls
+: 1714374758:0;source .zshrc
+: 1714374758:0;ls
+: 1714374762:0;echo $GOPATH
+: 1714374762:0;ls
+: 1714374764:0;cd
+: 1714374773:0;ls
+: 1714374777:0;go mod init
+: 1714374794:0;go mod init opwc
+: 1714374849:0;ls
+: 1714374850:0;pwd
+: 1714374854:0;ls
+: 1714374855:0;go get -u github.com/eatmoreapple/openwechat
+: 1714374859:0;ls
+: 1714374863:0;ls
+: 1714374865:0;cd go
+: 1714374865:0;ls
+: 1714374870:0;ls
+: 1714374874:0;rm -r go
+: 1714374883:0;rm -rf go
+: 1714374888:0;sudo rm -rf go
+: 1714374896:0;ls
+: 1714374900:0;ls
+: 1714374902:0;ll
+: 1714374906:0;cd go
+: 1714374906:0;ls
+: 1714374908:0;cd pl
+: 1714374912:0;echo $GOPATH
+: 1714374917:0;cd 
+: 1714374922:0;cd .local/env/go
+: 1714374923:0;ls
+: 1714374925:0;cd pkg
+: 1714374925:0;ls
+: 1714374927:0;cd mod
+: 1714374927:0;ls
+: 1714374929:0;cd cache
+: 1714374929:0;ls
+: 1714374930:0;cd ..
+: 1714374930:0;cd
+: 1714374931:0;ls
+: 1714374932:0;cd go
+: 1714374933:0;ls
+: 1714374934:0;cd bin
+: 1714374934:0;ls
+: 1714374941:0;cd ..
+: 1714374942:0;ls
+: 1714374943:0;cd pk
+: 1714374944:0;cd pkg
+: 1714374945:0;ls
+: 1714374948:0;cd sumdb
+: 1714374948:0;ls
+: 1714374953:0;nf
+: 1714374954:0;clear
+: 1714374976:0;ls
+: 1714374979:0;go get -u github.com/eatmoreapple/openwechat
+: 1714374981:0;ls
+: 1714374993:0;ls
+: 1714374994:0;pwd
+: 1714374994:0;cd
+: 1714374995:0;ls
+: 1714374996:0;l
+: 1714375000:0;cd Pictures
+: 1714375000:0;ls
+: 1714375001:0;cd wallpaper
+: 1714375002:0;ls
+: 1714375003:0;cd ..
+: 1714375010:0;mkdir ls
+: 1714375011:0;ls
+: 1714375013:0;rm ls
+: 1714375015:0;rm -r ls
+: 1714375015:0;ls
+: 1714375025:0;mkdir useful
+: 1714375025:0;ls
+: 1714375027:0;cd useful
+: 1714375027:0;ls
+: 1714375027:0;cd
+: 1714375028:0;ra
+: 1714375158:0;ra
+: 1714375201:0;ra
+: 1714375208:0;ls
+: 1714375210:0;ra
+: 1714375213:0;ls
+: 1714375217:0;ra
+: 1714375252:0;ls
+: 1714375258:0;mv config repositories
+: 1714375259:0;cd repositories
+: 1714375260:0;ls
+: 1714375262:0;cd config
+: 1714375263:0;ra
+: 1714375269:0;cd ..
+: 1714375271:0;cd mine
+: 1714375273:0;cd ..
+: 1714375273:0;ls
+: 1714375279:0;cd ..
+: 1714375280:0;cd .config
+: 1714375281:0;cd i3
+: 1714375281:0;ls
+: 1714375293:0;cp config ~/repositories/config/i3
+: 1714375297:0;ls
+: 1714375299:0;ra
+: 1714375319:0;ls
+: 1714375333:0;cp -r zsh ~/repositories/config
+: 1714375337:0;ls
+: 1714375339:0;cd ..
+: 1714375341:0;cp -r zsh ~/repositories/config

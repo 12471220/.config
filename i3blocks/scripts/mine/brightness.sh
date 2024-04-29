@@ -1,0 +1,1 @@
+echo `brightnessctl | grep -o "(.*" | tr -d "(%)"`

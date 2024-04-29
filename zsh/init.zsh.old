@@ -1,0 +1,12 @@
+zimfw() { source /home/lx/.config/zsh/zimfw.zsh "${@}" }
+zmodule() { source /home/lx/.config/zsh/zimfw.zsh "${@}" }
+fpath=(/home/lx/.config/zsh/modules/prompt-pwd/functions /home/lx/.config/zsh/modules/utility/functions /home/lx/.config/zsh/modules/git-info/functions ${fpath})
+autoload -Uz -- prompt-pwd mkcd mkpw coalesce git-action git-info
+source /home/lx/.config/zsh/modules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/lx/.config/zsh/modules/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/lx/.config/zsh/modules/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /home/lx/.config/zsh/modules/zsh-autopair/zsh-autopair.plugin.zsh
+source /home/lx/.config/zsh/modules/zsh-vi-mode/zsh-vi-mode.zsh
+source /home/lx/.config/zsh/modules/completion/init.zsh
+source /home/lx/.config/zsh/modules/gitster/gitster.zsh-theme
+source /home/lx/.config/zsh/modules/utility/init.zsh
