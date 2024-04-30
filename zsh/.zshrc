@@ -18,7 +18,7 @@ export PATH="$PATH:$HOME/.local/bin"
 alias nf="neofetch"
 alias ra="joshuto"
 alias vim="nvim"
-
+alias fm="thunar"
 
 
 

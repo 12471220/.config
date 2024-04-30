@@ -892,379 +892,1449 @@ nf
 java
 java --version
 ls
-: 1714326893:0;cd 
-: 1714326895:0;cd .local
-: 1714326896:0;ls
-: 1714326897:0;cd share
-: 1714326898:0;ls
-: 1714326902:0;cd ..
-: 1714326903:0;ls
-: 1714326915:0;mkdir env
-: 1714326915:0;ls
-: 1714326917:0;cd env
-: 1714326917:0;l
-: 1714326921:0;mkdir java
-: 1714326921:0;ls
-: 1714326931:0;ls
-: 1714326938:0;mv ~/Downloads ./
-: 1714326939:0;ls
-: 1714326948:0;pwd
-: 1714326949:0;l
-: 1714326951:0;cd Downloads
-: 1714326952:0;ls
-: 1714326963:0;cd ..
-: 1714326966:0;mv Downloads ~
-: 1714326976:0;mv ~/Downloads/jdk-17_linux-x64_bin.tar.gz ./
-: 1714326977:0;ls
-: 1714326985:0;tar -xzf ./jdk-17_linux-x64_bin.tar.gz
-: 1714326987:0;ls
-: 1714326994:0;ra
-: 1714327001:0;cd jdk-17.0.11
-: 1714327002:0;ls
-: 1714327009:0;cd bin
-: 1714327009:0;ls
-: 1714327012:0;ls
-: 1714327021:0;cd $ZDOTDIR
-: 1714327022:0;ls
-: 1714327023:0;vim .zshrc
-: 1714327068:0;ls
-: 1714327111:0;java --version
-: 1714327136:0;intellij-idea-ultimate-edition
-: 1714327165:0;ls
-: 1714327168:0;cd .config/i3
-: 1714327170:0;vim config
-: 1714327284:0;startx
-: 1714327307:0;intellij-idea-ultimate-edition
-: 1714327334:0;reboot
-: 1714352809:0;startx
-: 1714352848:0;vim .config/i3/config
-: 1714352863:0;ls
-: 1714352864:0;reboot
-: 1714352896:0;nf
-: 1714352900:0;startx
-: 1714365083:0;startx
-: 1714365093:0;brightnessctl
-: 1714365908:0;cd .config
-: 1714365908:0;ls
-: 1714365915:0;rm -r chromium
-: 1714365923:0;cd
-: 1714365932:0;cd .chache
-: 1714365940:0;l
-: 1714365943:0;cd .cache
-: 1714365944:0;ls
-: 1714365949:0;cd google-chrome
-: 1714365949:0;ls
-: 1714365951:0;cd Default
-: 1714365951:0;ls
-: 1714365955:0;cd Cache
-: 1714365956:0;ls
-: 1714365957:0;cd Cache_Data
-: 1714365958:0;ls
-: 1714365961:0;ra
-: 1714366122:0;cd .config/i3
-: 1714366122:0;ls
-: 1714366128:0;vim config
-: 1714366178:0;sudo pacman -Su
-: 1714366758:0;sudo pacman -Ss pycharm
-: 1714366774:0;sudo pacman -S pycharm-community-edition
-: 1714366830:0;paru -Ss pycharm
-: 1714366842:0;paru -S pycharm-professional
-: 1714366873:0;sudo pacman -S pycharm-community-edition
-: 1714366909:0;sudo pacman -S pycharm-community-edition
-: 1714366920:0;java
-: 1714366922:0;java -v
-: 1714366927:0;java -version
-: 1714366947:0;sudo pacman -S pycharm-community-edition
-: 1714366963:0;nf
-: 1714366965:0;nf
-: 1714366967:0;nf
-: 1714366969:0;nf
-: 1714367255:0;python
-: 1714367259:0;ls
-: 1714367263:0;gcc
-: 1714367265:0;gcc -v
-: 1714367299:0;pwd
-: 1714367300:0;nf
-: 1714367457:0;ls
-: 1714367457:0;nf
-: 1714367462:0;poweroff
-: 1714368340:0;nf
-: 1714368343:0;pwd
-: 1714368346:0;startx
-: 1714368395:0;cd /etc/default/
-: 1714368398:0;vim grub
-: 1714368475:0;sudo nvim grub
-: 1714368614:0;sudo pacman -S os-prober
-: 1714368617:0;ls
-: 1714368621:0;su
-: 1714368655:0;ls
-: 1714368703:0;ls
-: 1714368705:0;df
-: 1714368707:0;lsblk
-: 1714368717:0;mount /dev/nvme0n1p5 /mnt/tmp
-: 1714368726:0;sudo mount /dev/nvme0n1p5 /mnt/tmp
-: 1714368728:0;lsblk
-: 1714368733:0;su
-: 1714368811:0;ls
-: 1714368815:0;sudo nvim grub
-: 1714368914:0;ls
-: 1714368918:0;su
-: 1714369110:0;brightnessctl set 40
-: 1714369115:0;brightnessctl set 40%
-: 1714369120:0;brightnessctl set 40%
-: 1714369124:0;brightnessctl
-: 1714369140:0;startx
-: 1714369186:0;pkill cfw
-: 1714369220:0;brightnessctl
-: 1714369221:0;ls
-: 1714369333:0;ls
-: 1714369335:0;cd repositories
-: 1714369336:0;ls
-: 1714369338:0;cd mine
-: 1714369338:0;ls
-: 1714369342:0;ls
-: 1714369343:0;cd java
-: 1714369344:0;ls
-: 1714369350:0;l
-: 1714369351:0;ll
-: 1714369355:0;git clone https://github.com/12471220/springbootLearn.git
-: 1714369360:0;ls
-: 1714369362:0;cd springbootLearn
-: 1714369362:0;ls
-: 1714369367:0;rm -r out
-: 1714369367:0;ls
-: 1714369371:0;pwd
-: 1714369505:0;sudo pacman -Ss htop
-: 1714369510:0;pacman -S htop
-: 1714369515:0;sudo pacman -S htop
-: 1714369519:0;htop
-: 1714372060:0;nmtui
-: 1714372079:0;nmtui
-: 1714372110:0;nmtui
-: 1714372555:0;pacman -Ss typora
-: 1714372559:0;paru -Ss typora
-: 1714372579:0;paru -Ss typora
-: 1714372588:0;paru -S typora
-: 1714372680:0;ls
-: 1714372682:0;cd repositories
-: 1714372683:0;ls
-: 1714372691:0;mkdir learn
-: 1714372693:0;cd learn
-: 1714372693:0;ls
-: 1714372697:0;git clone https://github.com/12471220/learnCrawler.git
-: 1714372700:0;ls
-: 1714372702:0;cd learn
-: 1714372702:0;ls
-: 1714372919:0;ls
-: 1714372920:0;cd .config
-: 1714372920:0;lsc
-: 1714372932:0;mkdir ideavim
-: 1714372935:0;cd ideavim
-: 1714372935:0;ls
-: 1714372943:0;vim .ideavimrc
-: 1714373104:0;ls
-: 1714373107:0;vim .ideavimrc
-: 1714373557:0;ls
-: 1714373559:0;ls
-: 1714373593:0;ls
-: 1714373594:0;cd .con
-: 1714373594:0;ls
-: 1714373596:0;cd
-: 1714373597:0;pwd
-: 1714373599:0;ls
-: 1714373690:0;ls
-: 1714373691:0;cd .config
-: 1714373692:0;cd
-: 1714373693:0;cd Documents
-: 1714373694:0;ls
-: 1714373695:0;cd doc
-: 1714373696:0;ls
-: 1714373697:0;vim note.md
-: 1714373717:0;ls
-: 1714373718:0;cd .config/n
-: 1714373718:0;slc
-: 1714373720:0;ls
-: 1714373722:0;cd .config
-: 1714373727:0;cd nvim
-: 1714373727:0;ls
-: 1714373730:0;cd lua
-: 1714373730:0;ls
-: 1714373733:0;cd core
-: 1714373733:0;ls
-: 1714373735:0;vim keymaps.lua
-: 1714373744:0;ls
-: 1714373747:0;vim options.lua
-: 1714373757:0;cd ..
-: 1714373757:0;ls
-: 1714373759:0;cd plugins
-: 1714373760:0;ls
-: 1714373762:0;cd ..
-: 1714373762:0;ls
-: 1714373763:0;cd ..
-: 1714373764:0;ls
-: 1714373766:0;vim init.lua
-: 1714373772:0;ra
-: 1714373947:0;ls
-: 1714373947:0;cd 
-: 1714373948:0;cd .config
-: 1714373949:0;ls
-: 1714373966:0;mv ideavim IdeaVim
-: 1714373966:0;ls
-: 1714373968:0;cd IdeaVim
-: 1714373969:0;ls
-: 1714373970:0;ll
-: 1714373977:0;cd ..
-: 1714373977:0;ls
-: 1714373983:0;cd IdeaVim
-: 1714373983:0;ls
-: 1714373991:0;vim ideavim
-: 1714374016:0;ls
-: 1714374019:0;ls
-: 1714374037:0;mv ideavim ideavimrc
-: 1714374037:0;ls
-: 1714374038:0;vim ideavimrc
-: 1714374072:0;ls
-: 1714374073:0;vim ideavimrc
-: 1714374214:0;l
-: 1714374216:0;cd .m2
-: 1714374217:0;ls
-: 1714374231:0;cd
-: 1714374231:0;ls
-: 1714374232:0;l
-: 1714374235:0;cd .tmux
-: 1714374235:0;ls
-: 1714374237:0;cd pl
-: 1714374239:0;cd plugins
-: 1714374239:0;ls
-: 1714374241:0;cd tpm
-: 1714374241:0;ls
-: 1714374242:0;cd
-: 1714374243:0;ls
-: 1714374246:0;rm -r .tmux
-: 1714374251:0;rm -rf .tmux
-: 1714374251:0;ls
-: 1714374259:0;tmux new -s main
-: 1714374489:0;go
-: 1714374492:0;pdw
-: 1714374493:0;pwd
-: 1714374493:0;ls
-: 1714374494:0;go
-: 1714374496:0;pacman -Ss go
-: 1714374505:0;sudo pacman -S go
-: 1714374543:0;l
-: 1714374547:0;ls
-: 1714374549:0;pwd
-: 1714374640:0;ls
-: 1714374644:0;cd .config/zsh
-: 1714374646:0;vim .zshrc
-: 1714374731:0;ls
-: 1714374734:0;tmux attach 
-: 1714374735:0;ls
-: 1714374742:0;$GOPATH
-: 1714374746:0;echo $GOPATH
-: 1714374747:0;ls
-: 1714374749:0;ls
-: 1714374758:0;source .zshrc
-: 1714374758:0;ls
-: 1714374762:0;echo $GOPATH
-: 1714374762:0;ls
-: 1714374764:0;cd
-: 1714374773:0;ls
-: 1714374777:0;go mod init
-: 1714374794:0;go mod init opwc
-: 1714374849:0;ls
-: 1714374850:0;pwd
-: 1714374854:0;ls
-: 1714374855:0;go get -u github.com/eatmoreapple/openwechat
-: 1714374859:0;ls
-: 1714374863:0;ls
-: 1714374865:0;cd go
-: 1714374865:0;ls
-: 1714374870:0;ls
-: 1714374874:0;rm -r go
-: 1714374883:0;rm -rf go
-: 1714374888:0;sudo rm -rf go
-: 1714374896:0;ls
-: 1714374900:0;ls
-: 1714374902:0;ll
-: 1714374906:0;cd go
-: 1714374906:0;ls
-: 1714374908:0;cd pl
-: 1714374912:0;echo $GOPATH
-: 1714374917:0;cd 
-: 1714374922:0;cd .local/env/go
-: 1714374923:0;ls
-: 1714374925:0;cd pkg
-: 1714374925:0;ls
-: 1714374927:0;cd mod
-: 1714374927:0;ls
-: 1714374929:0;cd cache
-: 1714374929:0;ls
-: 1714374930:0;cd ..
-: 1714374930:0;cd
-: 1714374931:0;ls
-: 1714374932:0;cd go
-: 1714374933:0;ls
-: 1714374934:0;cd bin
-: 1714374934:0;ls
-: 1714374941:0;cd ..
-: 1714374942:0;ls
-: 1714374943:0;cd pk
-: 1714374944:0;cd pkg
-: 1714374945:0;ls
-: 1714374948:0;cd sumdb
-: 1714374948:0;ls
-: 1714374953:0;nf
-: 1714374954:0;clear
-: 1714374976:0;ls
-: 1714374979:0;go get -u github.com/eatmoreapple/openwechat
-: 1714374981:0;ls
-: 1714374993:0;ls
-: 1714374994:0;pwd
-: 1714374994:0;cd
-: 1714374995:0;ls
-: 1714374996:0;l
-: 1714375000:0;cd Pictures
-: 1714375000:0;ls
-: 1714375001:0;cd wallpaper
-: 1714375002:0;ls
-: 1714375003:0;cd ..
-: 1714375010:0;mkdir ls
-: 1714375011:0;ls
-: 1714375013:0;rm ls
-: 1714375015:0;rm -r ls
-: 1714375015:0;ls
-: 1714375025:0;mkdir useful
-: 1714375025:0;ls
-: 1714375027:0;cd useful
-: 1714375027:0;ls
-: 1714375027:0;cd
-: 1714375028:0;ra
-: 1714375158:0;ra
-: 1714375201:0;ra
-: 1714375208:0;ls
-: 1714375210:0;ra
-: 1714375213:0;ls
-: 1714375217:0;ra
-: 1714375252:0;ls
-: 1714375258:0;mv config repositories
-: 1714375259:0;cd repositories
-: 1714375260:0;ls
-: 1714375262:0;cd config
-: 1714375263:0;ra
-: 1714375269:0;cd ..
-: 1714375271:0;cd mine
-: 1714375273:0;cd ..
-: 1714375273:0;ls
-: 1714375279:0;cd ..
-: 1714375280:0;cd .config
-: 1714375281:0;cd i3
-: 1714375281:0;ls
-: 1714375293:0;cp config ~/repositories/config/i3
-: 1714375297:0;ls
-: 1714375299:0;ra
-: 1714375319:0;ls
-: 1714375333:0;cp -r zsh ~/repositories/config
-: 1714375337:0;ls
-: 1714375339:0;cd ..
-: 1714375341:0;cp -r zsh ~/repositories/config
+cd 
+cd .local
+ls
+cd share
+ls
+cd ..
+ls
+mkdir env
+ls
+cd env
+l
+mkdir java
+ls
+ls
+mv ~/Downloads ./
+ls
+pwd
+l
+cd Downloads
+ls
+cd ..
+mv Downloads ~
+mv ~/Downloads/jdk-17_linux-x64_bin.tar.gz ./
+ls
+tar -xzf ./jdk-17_linux-x64_bin.tar.gz
+ls
+ra
+cd jdk-17.0.11
+ls
+cd bin
+ls
+ls
+cd $ZDOTDIR
+ls
+vim .zshrc
+ls
+java --version
+intellij-idea-ultimate-edition
+ls
+cd .config/i3
+vim config
+startx
+intellij-idea-ultimate-edition
+reboot
+startx
+vim .config/i3/config
+ls
+reboot
+nf
+startx
+startx
+brightnessctl
+cd .config
+ls
+rm -r chromium
+cd
+cd .chache
+l
+cd .cache
+ls
+cd google-chrome
+ls
+cd Default
+ls
+cd Cache
+ls
+cd Cache_Data
+ls
+ra
+cd .config/i3
+ls
+vim config
+sudo pacman -Su
+sudo pacman -Ss pycharm
+sudo pacman -S pycharm-community-edition
+paru -Ss pycharm
+paru -S pycharm-professional
+sudo pacman -S pycharm-community-edition
+sudo pacman -S pycharm-community-edition
+java
+java -v
+java -version
+sudo pacman -S pycharm-community-edition
+nf
+nf
+nf
+nf
+python
+ls
+gcc
+gcc -v
+pwd
+nf
+ls
+nf
+poweroff
+nf
+pwd
+startx
+cd /etc/default/
+vim grub
+sudo nvim grub
+sudo pacman -S os-prober
+ls
+su
+ls
+ls
+df
+lsblk
+mount /dev/nvme0n1p5 /mnt/tmp
+sudo mount /dev/nvme0n1p5 /mnt/tmp
+lsblk
+su
+ls
+sudo nvim grub
+ls
+su
+brightnessctl set 40
+brightnessctl set 40%
+brightnessctl set 40%
+brightnessctl
+startx
+pkill cfw
+brightnessctl
+ls
+ls
+cd repositories
+ls
+cd mine
+ls
+ls
+cd java
+ls
+l
+ll
+git clone https://github.com/12471220/springbootLearn.git
+ls
+cd springbootLearn
+ls
+rm -r out
+ls
+pwd
+sudo pacman -Ss htop
+pacman -S htop
+sudo pacman -S htop
+htop
+nmtui
+nmtui
+nmtui
+pacman -Ss typora
+paru -Ss typora
+paru -Ss typora
+paru -S typora
+ls
+cd repositories
+ls
+mkdir learn
+cd learn
+ls
+git clone https://github.com/12471220/learnCrawler.git
+ls
+cd learn
+ls
+ls
+cd .config
+lsc
+mkdir ideavim
+cd ideavim
+ls
+vim .ideavimrc
+ls
+vim .ideavimrc
+ls
+ls
+ls
+cd .con
+ls
+cd
+pwd
+ls
+ls
+cd .config
+cd
+cd Documents
+ls
+cd doc
+ls
+vim note.md
+ls
+cd .config/n
+slc
+ls
+cd .config
+cd nvim
+ls
+cd lua
+ls
+cd core
+ls
+vim keymaps.lua
+ls
+vim options.lua
+cd ..
+ls
+cd plugins
+ls
+cd ..
+ls
+cd ..
+ls
+vim init.lua
+ra
+ls
+cd 
+cd .config
+ls
+mv ideavim IdeaVim
+ls
+cd IdeaVim
+ls
+ll
+cd ..
+ls
+cd IdeaVim
+ls
+vim ideavim
+ls
+ls
+mv ideavim ideavimrc
+ls
+vim ideavimrc
+ls
+vim ideavimrc
+l
+cd .m2
+ls
+cd
+ls
+l
+cd .tmux
+ls
+cd pl
+cd plugins
+ls
+cd tpm
+ls
+cd
+ls
+rm -r .tmux
+rm -rf .tmux
+ls
+tmux new -s main
+go
+pdw
+pwd
+ls
+go
+pacman -Ss go
+sudo pacman -S go
+l
+ls
+pwd
+ls
+cd .config/zsh
+vim .zshrc
+ls
+tmux attach 
+ls
+$GOPATH
+echo $GOPATH
+ls
+ls
+source .zshrc
+ls
+echo $GOPATH
+ls
+cd
+ls
+go mod init
+go mod init opwc
+ls
+pwd
+ls
+go get -u github.com/eatmoreapple/openwechat
+ls
+ls
+cd go
+ls
+ls
+rm -r go
+rm -rf go
+sudo rm -rf go
+ls
+ls
+ll
+cd go
+ls
+cd pl
+echo $GOPATH
+cd 
+cd .local/env/go
+ls
+cd pkg
+ls
+cd mod
+ls
+cd cache
+ls
+cd ..
+cd
+ls
+cd go
+ls
+cd bin
+ls
+cd ..
+ls
+cd pk
+cd pkg
+ls
+cd sumdb
+ls
+nf
+clear
+ls
+go get -u github.com/eatmoreapple/openwechat
+ls
+ls
+pwd
+cd
+ls
+l
+cd Pictures
+ls
+cd wallpaper
+ls
+cd ..
+mkdir ls
+ls
+rm ls
+rm -r ls
+ls
+mkdir useful
+ls
+cd useful
+ls
+cd
+ra
+ra
+ra
+ls
+ra
+ls
+ra
+ls
+mv config repositories
+cd repositories
+ls
+cd config
+ra
+cd ..
+cd mine
+cd ..
+ls
+cd ..
+cd .config
+cd i3
+ls
+cp config ~/repositories/config/i3
+ls
+ra
+ls
+cp -r zsh ~/repositories/config
+ls
+cd ..
+cp -r zsh ~/repositories/config
+cp -r i3blocks ~/repositories/config
+l
+cd vscode
+ls
+ra
+ls
+cd ..
+l
+l
+cd .vscode
+ls
+cd vscode
+ls
+ls
+rm -r vscode
+ls
+ls
+cp -r gtk-3.0/ ~/repositories/config
+pacman -Ss dunst
+sudo pacman -S dunst
+ls
+cd ~/repositories
+l
+cd config
+ls
+ra
+ls
+git add .
+ls
+git commit -m "sav"
+git config --global user.email "sc@0x1247c15@gmail.com"
+git config --global user.name "sc"
+ls
+ls
+git config --global user.email "0x1247c15@gmail.com"
+ls
+git commit -m "sav"
+git push
+ls
+cd
+ls
+cd Documents/doc
+ls
+cd ..
+mkdir tmp
+ls
+cd tmp
+ls
+vim github_token
+ls
+cat github_token
+ls
+ls
+cd
+ls
+cd repositories
+l
+cd config
+ls
+git branch -d master
+ls
+git check
+git checkout
+git checkout ls
+git branch
+ls
+ls
+cd i3blocks
+ls
+cd scripts
+ls
+cd i3blocks-contrib
+ls
+rm -rf .git
+ls
+cd ..
+ls
+curl 'https://passport.bilibili.com/x/passport-login/web/qrcode/generate'
+curl https://passport.bilibili.com/x/passport-login/web/qrcode/poll
+pacman -Rsn curl
+sudo pacman -Rsn curl
+curl 'https://passport.bilibili.com/x/passport-login/web/qrcode/generate'
+cd
+pacman -Ss node
+sudo pacman -S node
+sudo pacman -S nodejs
+sudo pacman -S npm
+ls
+cd Documents
+ls
+cd doc
+ls
+vim note.md
+vim installed.md
+ls
+node
+ls
+tmux attach
+tmux new main
+tmux new -s main
+ls
+node
+ls
+ls
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+df
+lsblk
+pacman -Ss thunder
+pacman -Ss thunar
+sudo pacman -S thunar
+cd /etc
+sudo nvim inputrc
+pacman -Qt
+cd Do
+cd Documents
+ls
+cd doc
+ls
+mv installed.md ~/repositories/config
+ls
+cd
+cd 
+cd repositories
+ls
+cd config
+ls
+vim installed.md
+mv installed.md installed
+vim installed
+vim installed
+cd gtk-3.0
+ls
+cd
+ls
+ls
+cd repositories
+cd config
+ls
+git add .
+git status
+ra
+cd /etc/systemd
+ls
+cd 
+cd /etc/systemd
+ls
+ls
+cd system
+ls
+ra
+pacman -Ss dockre
+pacman -Ss docker
+sls
+cd 
+cd 
+ls
+cd repositories
+ls
+cd learn
+ls
+git clone 
+https://github.com/opusb/tpclash2.git
+git clone https://github.com/opusb/tpclash2.git
+cd tpclash2
+ls
+code .
+cd /etc/
+cd
+cd Downloads
+ls
+7z x tpclash2-0.1.17.zip -oa
+ls
+rm tpclash2-0.1.17.zip
+cd a
+ls
+cd tpclash2-0.1.17
+ls
+ra
+nf
+clear
+ls
+cd
+reboot
+ls
+nf
+startx
+bluetoothctl
+bluez
+pacman -Ss bluez
+sudo pacman -S bluez
+cd repositories/config
+vim installed
+vim 
+vim installed
+sudo pacman -Rsn bluez
+sudo pacman -S bluez-utils
+sudo pacman -S bluez bluez-utils
+vim installed
+ls
+vim i
+vim installed
+bluetoothctl
+sudo systemctl start bluetooth
+bluetoothctl
+btusb
+pacman -Ss gnome-bluetooth
+pacman -S gnome-bluetooth-3.0
+sudo pacman -S gnome-bluetooth-3.0
+ls
+cd
+vim .zshrc
+cd .config/zsh/
+vim .zshrc
+echo $EDITOR
+ls
+tmux attach
+echo $EDITOR
+ls
+ra
+ls
+cd .config/zsh/
+vim .zshrc
+ls
+reboot
+startx
+ls
+wpd
+wpd
+ls
+pwd
+bluetoothctl
+sudo systemctl start bluetooth
+bluetoothctl
+nmtui
+nmtui
+nmtui
+systemctl start blutoothd
+bluetoothctl
+systemctl status blutooth
+systemctl status blutooth.service
+systemctl status blutooth.service
+rfkill block bluetooth\
+rfkill unblock bluetooth
+systemctl status blutooth.service
+sudo pacman -Rsn bluez
+sudo pacman -Rsn bluez-utils
+sudo pacman -Rsn bluez 
+sudo pacman -Rsn bluez-utils
+sudo pacman -S bluez
+sudo pacman -S bluez-utils
+ls
+bluetoothctl
+systemctl status blutooth.service
+systemctl status blutooth.service
+systemctl status bluetooth.service
+bluetoothcli
+pacman -Ss blueberrytui
+paru -Ss blueberrytui
+pacman -Ss blueberry
+sudo pacman -S blueberry
+blueberry
+sudo pacman -Rsn blueberry
+pacman -Ss bluemindo
+paru -Ss bluemindo
+pacman -Ss bctui
+paru -Ss bctui
+
+ls
+systemctl status bluetooth.service
+ls
+systemctl status bluetooth.service
+systemctl status bluetooth.service
+bluetoothctl
+bluetoothctl
+rfkill block bluetooth\
+rfkill unblock bluetooth
+nmtui
+bluetoothctl
+systemctl status bluetooth.service
+reboot
+nvidia-smi
+ls
+systemctl status bluetooth.service
+ls
+startx
+ls
+cd Documents
+cd article
+ls
+ra
+ra
+sudo pacman -S docekr
+sudo pacman -S docker
+nf
+systemctl status docker
+systemctl start docker
+docker ls
+docker ps
+sudo usermod -aG docker sc
+ls
+docker ps
+ls
+docker
+docker ps
+exit
+startx
+ls
+docker ps
+docker pull fedora
+docker ps
+docker ls
+docker list
+docker help
+docker image
+docker images
+ls
+docker search gentoo
+docker search immortalwrt
+docker search openwrt
+pacman -Syu
+sudo pacman -Syu
+nf
+pwd
+sudo pacman -Rsn $(pacman -Qtdq)
+htop
+pacman -Ss btop
+pacman -S btop
+sudo pacman -S btpo
+sudo pacman -S btop
+btop
+htop
+sudo pacman -Rsn htop
+btop
+btop
+lsblk
+df
+paru -Ss yesplaymusic
+paru -S yesplaymusic
+btop
+nf
+ls
+ls
+docker help
+docker run help
+docker run --name fdrctn fedora -it /bin/bash
+docker ps
+docker run --name fdrctn fedora
+docker ps
+docker images
+docker help
+docker ps -a
+docker rm fdrctn
+docker ps -a
+docker run --name fdrctn fedora
+docker ps
+docker ps -a
+docker rm fdrctn
+docker run --name fdr1 fedora
+docker ps
+docker ls
+docker exec
+docker ps -a
+docker start fdr1
+docker ps
+docker ps -a
+docker start fdr1 -it /bin/bash
+docker rm fdr1
+docker run --name fdr1 -it fedora /bin/bash
+docker ps
+docker ps -a
+docker start fdr1
+docker ps -a
+docker ps
+docker exec -it fdr1 
+docker exec -it fdr1 /bin/bash
+docker ps
+docker stop fdr1
+btop
+docker ps
+docker ps 0a
+docker rm fdr1
+docker rmi fedora
+docker ps
+docker images
+docker search openwrt
+docker search tpclash
+docker pull mritd/tpclash
+docker images
+cd .config
+ls
+ll
+mkdir tpclash
+ls
+cd tpclash
+ls
+docker run -dt \\
+  --name tpclash \\
+  --privileged \\
+  --network=host \\
+  -v /home/sc/.config/tpclash/clash.yaml:/etc/clash.yaml  mritd/tpclash
+ls
+docker ps
+docker ps -a
+docker tpclash
+docker start tpclash
+docker ps 
+docker ps -a
+docker logs
+docker logs ls
+docker logs -h
+docker logs --details
+cd /var
+ls
+cd lo
+cd log
+ls
+docker logs
+docker logs --help
+docker logs --details
+docker logs --details tpclash
+cd /etc/
+ls
+docker rm tpclash
+docker ps
+docker ps -a
+docker images
+docker run help
+docker help
+cd /root
+docker run -dt \\
+  --name tpclash \\
+  --privileged \\
+  --network=host \\
+  -v /home/sc/.config/tpclash/clash.yaml:/etc/clash.yaml \\
+mritd/tpclash
+docker ps
+docker ps -a
+docker logs --details tpclash
+ls
+ls
+docker rm tpclash
+dockre rm
+docker rmi tpclash
+docker rmi mritd/tpclash
+docker images
+docker search openwrt
+cd ..
+rm -r tpclash
+docker search immortalwrt
+docker network ls
+docker search openwrt
+docker search nonnichen/nonniwrt
+docker search openwrt
+docker pull openwrt
+docker pull openwrtorg/openwrt:latest\
+
+docker search nonniwrt
+docker search openwrt
+pacman -Ss wireshark
+pacman -S wireshark
+sudo pacman -S wireshark
+sudo pacman -S wireshark-qt
+sudo wireshark
+ping baidu.com
+ip addr
+docker pull ubuntu
+docker images
+docker run --name ubt1 --it ubuntu /bin/bash
+docker run --name ubt1 -it ubuntu /bin/bash
+sudo wireshark
+ls
+ip addr
+docker stop ubt
+docker ps
+docker ps -a
+docker help
+docker rename 2e8b1a0b76f8 ubt
+docker ps -a
+docker rename ubt
+docker rename --hlep
+docker rename --help
+ls
+docker ps
+docker ps -a
+docker rename ubt ubt1
+docker ps
+ls
+ip addr
+ping 172.17.0.1
+tmux new -s main
+cd 
+cd Downloads
+ls
+ra
+ls
+cd .config
+cd i3blocks
+ls
+cd scripts
+ls
+cd mine
+ls
+vim weather
+ls
+mv weather weather.sh
+chmod +x weather.sh
+./weather.sh
+ls
+vim weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+vim weather.sh
+ls
+pwd
+curl -L -X GET --compressed 'https://api.qweather.com/v7/weather/now?location=101010100&key=YOUR_KEY'
+curl -L -X GET --compressed 'https://api.qweather.com/v7/weather/now?location=101010100&key=2368b0bf34bb4becb1a7219a9f993bd1'
+pwd
+vim weather.sh
+ls
+./weather.sh
+ls
+vim weather.sh
+curl -L -X GET --compressed 'https://api.qweather.com/v7/weather/now?location=101010100&key=2368b0bf34bb4becb1a7219a9f993bd1'ls
+ls
+vim weather.sh
+./weather.sh
+ls
+vim weather.sh
+ls
+curl -L -X GET --compressed 'https://api.qweather.com/v7/weather/now?location=101010100&key=146e687f66f64061a00d733fd923f3eb'
+ls
+vim weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+curl -L -X GET --compressed 'https://api.qweather.com/v7/weather/24h?location=101010100&key=146e687f66f64061a00d733fd923f3eb'
+vim weather.sh
+ls
+vim weather.sh
+./weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+ls
+cd 
+cd .config/i3
+cd ..
+cd i3blocks
+ls
+cd m
+cd scripts/mine
+ls
+vim weather.sh
+./weather.sh
+pwd
+vim weather.sh
+./weather.sh
+ls
+vim weather.sh
+./weather.sh
+ls
+code .
+ls
+cd .config/i3
+vim config
+ls
+./weather.sh
+vim weather.sh
+./weather.sh
+vim weather.sh
+vim weather.sh
+./weather.sh
+vim weather.sh
+./weather.sh
+ls
+./weather.sh
+./weather.sh
+ls
+ls
+./weather.sh
+./weather.sh
+jq
+ls
+python weather.py
+python weather.py
+python weather.py
+python weather.py
+python weather.py
+python weather.py
+python weather.py
+python 
+node weather.js
+node weather.js
+ls
+node weather.js
+node weather.js
+node weather.js
+node weather.js
+node weather.js
+ls
+cd ..
+cd ..
+ls
+vim config
+curl -L -X GET --compressedhttps://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+curl -L -X GET --compressed 'https://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+sudo wireshark
+curl -L -X GET --compressedhttps://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+curl -L -X GET --compressedhttps://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+curl -L -X GET --compressed 'https://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+pacman -Ss location
+twm
+pacman -Ss twm
+ls
+pwd
+cd ..
+ls
+cp -r i3blocks ~/repositories/config
+cd
+cd repositories
+ls
+cd config
+ls
+git status
+git add .
+git status
+nmap
+pacman -Ss nmpa
+cd
+pacman -Ss nmpa
+pacman -Ss nmap
+sudo pacman -S nmap
+nmap
+ip addr
+nmap 172.24.40.116
+nmap 172.24.40.116/24
+pwd
+ls
+nmtui
+ls
+ip link
+ip link
+pwd
+ip addr
+nmap 192.168.21.218/24
+ssh pi@192.168.21.238
+curl -L -X GET --compressed 'https://devapi.qweather.com/v2/city/lookup?location=wuhu&key=4b419e6478ef4f97a4fbf4435647c4a7'
+ssh-keygen  help
+ssh-keygen -t rsa -b 4096
+ls
+cd .ssh
+ls
+ls
+rm -r id_rsa*
+l
+cd
+ssh-keygen -t rsa -b 4096 -C "0x1247c15@gmail.com"
+ls
+cd .ssh
+ls
+scp id_rsa.pub pi@192.168.21.238
+ls
+rm pi@192.168.21.238
+rm pi@192.168.21.238:~
+scp pi@192.168.21.238:~
+ls
+scp id_rsa.pub pi@192.168.21.238:~
+ssh pi@192.168.21.238
+ssh pi@192.168.21.238
+ll
+ssh nf
+nf
+nf
+ls
+cd
+cd Documents
+ls
+cd article/
+ls
+typora 042924.md
+ls
+cd .config/i3blocks
+ls
+cd scripts/mine
+ls
+vim weather.js
+pacman -Ss pve
+paru -Ss pve
+reboot
+sl
+ls
+startx
+ls
+cd .config/i3blocks/scripts/mine
+ls
+vim weather.js
+ls
+ls
+pwd
+vim weather.js
+reboot
+startx
+cd /etc/X11
+ls
+cd xorg.conf.d
+ls
+cd ..
+cd xinit
+ls
+cd ..
+yarn
+ls
+cd yes
+cd /opt
+ls
+pwd
+cd ..
+ls
+cd efi
+ls
+cd ..
+ls
+cd boot
+ls
+cd ..
+ls
+cd /opt
+ls
+paru -Ss yesplaymusic
+btop
+ls
+ls
+ls
+pwd
+ls
+cd .config
+cp -r i3blocks ~/repositories/config
+ls
+pwd
+cd i3blocks
+ls
+cd scripts
+ls
+cd i3blocks-contrib
+ls
+rm -r .git
+rm -rf .git
+cd ../..
+ls
+cd ..
+cp -r i3blocks ~/repositories/config
+ls
+pwd
+cd
+ls
+cd repositories/config
+ls
+git status
+git add .
+ls
+git status
+git commit -m "sav"
+git push
+ls
+cat Documents/tmp/github_token
+ls
+ls
+cd
+tmux new -s main
+ls
+pwd
+pacman -Syu
+1
+sudo pacman -Syu
+nf
+clear
+bluetoothctl
+systemctl start blutoothd
+systemctl start blutoothctl
+systemctl start blutoothd
+ls
+systemctl start blutooth
+sudo pacman -Rsn bluez
+ls
+ls
+cd .config
+ls
+cd IdeaVim
+ls
+vim ideavimrc
+pwd
+ls
+cd ..
+ls
+cd IdeaVim
+ls
+vim ideavimrc
+ls
+vim ideavimrc
+ls
+cd ..
+ls
+mv IdeaVim ideavim
+\:w
+vim ideavim
+ls
+cd ideavim
+vim ideavimrc
+ls
+cd ..
+cp -r ideavim ~/repositories/config
+cd ~/repositories
+ls
+cd config
+ls
+cd ideavim
+ls
+vim ideavimrc
+tmux attach
+ls
+time
+date
+timedatectl
+ntpdate pool.ntp.org  # ä½¿çƒ´¨é»ƒ¸è®¤çƒºƒ¤æƒ·¶éƒ·´æƒ¼ƒ­åƒªƒåƒ¹¨poolåƒ°ƒ¬æ­¥\
+ntpdate 210.72.145.44 # ä½¿çƒ´¨ä¸­åƒ»½ç§ƒ±å­¦éƒ¹ƒ‚çƒºƒ¤åƒ¥¬åƒ¥±NTPæƒ¼ƒ­åƒªƒåƒ¹¨
+ntpdate
+chronyc makestep      # ç«ƒ«åƒ­³åƒ°ƒ¬æ­¥ç³»ç»ƒ¿æƒ·¶éƒ·´
+pacman -Ss ntpdate
+hwclock --show
+hwclock
+timedatectl
+sudo timedatectl set-ntp true
+timedatectl
+sudo timedatectl set-ntp yes -ntp-server=0.asia.pool.ntp.org
+timedatectl set-timezone Asia/Shanghai
+timedatectl
+timedatectl set-local-rtc 0
+timedatectl
+cd ..
+cd zsh
+vim zsh_history
+pacman -Ss ttf-math
+pacman -Ss math
+pacman -Ss math|grep ttf
+cd
+cd .config/ideavim
+vim ideavimrc
+ls
+sudo mount /dev/sda1 /mnt/upan
+cd /mnt/upan
+ls
+df
+lsblk
+sudo umount /dev/sda1
+sudo umount /dev/sda1
+: 1714460610:0;sudo umount /dev/sda1
+: 1714460616:0;tmux attach
+: 1714462641:0;cd .config/xfce4
+: 1714462642:0;ls
+: 1714462645:0;cd xfconf
+: 1714462646:0;ls
+: 1714462648:0;cd xfce-perchannel-xml
+: 1714462648:0;ls
+: 1714462651:0;vim thunar.xml
+: 1714462668:0;cd
+: 1714463013:0;gvfs
+: 1714464336:0;pacman -S dunst
+: 1714464357:0;btop
+: 1714464481:0;nf
+: 1714464490:0;btop
+: 1714464565:0;acpi -v
+: 1714464578:0;acpi -V
+: 1714464585:0;acpi -b
+: 1714464681:0;ls
+: 1714464683:0;tmux attach
+: 1714464690:0;clear
+: 1714464696:0;pacman -Ss upower
+: 1714464703:0;sudo pacman -S upower
+: 1714464718:0;cd 
+: 1714464725:0;vim repositories/config/installed
+: 1714464737:0;ls
+: 1714464741:0;upower
+: 1714464757:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1714464827:0;upower help
+: 1714464831:0;upower -h
+: 1714464873:0;upower -i
+: 1714464881:0;pacman -S man
+: 1714464886:0;sudo pacman -S man
+: 1714464900:0;man ls
+: 1714464905:0;man upower
+: 1714464936:0;sudo pacman -Rsn man
+: 1714464944:0;sudo pacman -Rsn man-db
+: 1714464946:0;ls
+: 1714464951:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1714465036:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|grep energy-rate
+: 1714465061:0;awk -h
+: 1714465430:0;sudo pacman -S man-db
+: 1714465437:0;vim repositories/config/installed
+: 1714465447:0;ls
+: 1714465453:0;man awk
+: 1714465464:0;ls
+: 1714465468:0;awk -h
+: 1714465470:0;man awk
+: 1714465478:0;man pwd
+: 1714465749:0;ls
+: 1714465755:0;vim a
+: 1714465759:0;cat a
+: 1714465775:0;cat a |awk '$1'
+: 1714465785:0;cat a |awk '$2'>30
+: 1714465794:0;cat a |awk '$2>30'
+: 1714465820:0;cat a |awk '$2>30{print $1}'
+: 1714465829:0;cat a |awk '$2>30{print $2}'
+: 1714465860:0;cat a |awk '$2>30 {print $2}'
+: 1714465908:0;cat a |awk '$3>30 {print $2}'
+: 1714465922:0;cat a |awk '$3>25 {print $2}'
+: 1714465932:0;cat a |awk '$3>25'
+: 1714465966:0;cat a |awk '$3>25{print $1}{print $1}'
+: 1714465987:0;cat a |awk '$3>25{print $1}'
+: 1714466190:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '{$1==energy-rate}'
+: 1714466243:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/'
+: 1714466254:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/{print $2}'
+: 1714466262:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/{print $2;$3}'
+: 1714466267:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/{print $2;print $3}'
+: 1714466277:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/{print $2}'
+: 1714466302:0;code
+: 1714466372:0;chmod +x power.sh
+: 1714466374:0;./power.sh
+: 1714466388:0;./power.sh
+: 1714466430:0;./power.sh
+: 1714466540:0;./power.sh
+: 1714466553:0;./power.sh
+: 1714466562:0;./power.sh
+: 1714466578:0;ls
+: 1714466579:0;cd .config
+: 1714466581:0;cd i3blocks
+: 1714466581:0;ls
+: 1714466582:0;vim config
+: 1714466744:0;poweroff
+: 1714475852:0;startx
+: 1714475859:0;ls
+: 1714475868:0;ls
+: 1714475871:0;cd .config/i3blocks
+: 1714475871:0;ls
+: 1714475876:0;vim config
+: 1714467261:0;echo /sys/class/power_supply/
+: 1714467266:0;echo /sys/class/power_supply/BAT0
+: 1714467280:0;echo /sys/class/power_supply/BAT0
+: 1714467290:0;/sys/class/power_supply/BAT0
+: 1714467298:0;sudo /sys/class/power_supply/BAT0
+: 1714468605:0;vimls
+: 1714468759:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0|awk '/energy-rate/{print $2}'
+: 1714468765:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1714468906:0;acpi -V
+: 1714468986:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1714469026:0;tmux new -s main
+: 1714470499:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1714470517:0;ls
+: 1714470521:0;rm 30
+: 1714470523:0;rm a
+: 1714470523:0;ls
+: 1714470537:0;vim .config/i3blocks
+: 1714470545:0;vim .config/i3blocks/config
+: 1714476584:0;sudo mount /dev/sda1 /mnt/upan
+: 1714476590:0;cd /mnt/upan
+: 1714476590:0;ls
+: 1714476593:0;cd arch_data
+: 1714476594:0;ls
+: 1714476598:0;cd config
+: 1714476598:0;ls
+: 1714476612:0;cp -r dunst ~/.config
+: 1714476614:0;cd 
+: 1714476617:0;cd .config/dunst
+: 1714476617:0;ls
+: 1714476622:0;vim dunstrc
+: 1714476640:0;ls
+: 1714476646:0;cd ..
+: 1714476657:0;cp -r dunst ~/repositories/config
+: 1714476659:0;ls
+: 1714476664:0;sudo pacman -S dunst
+: 1714477111:0;ls
+: 1714477112:0;cd tour
+: 1714477113:0;ls
+: 1714477113:0;pwd
+: 1714477117:0;ls
+: 1714477118:0;pwd
+: 1714477124:0;ls
+: 1714477124:0;pwd
+: 1714477129:0;ls
+: 1714477129:0;pwd
+: 1714477133:0;cd zsh
+: 1714477134:0;ls
+: 1714477138:0;ls
+: 1714477140:0;pwd
+: 1714477149:0;vim zimfw.zsh
+: 1714477179:0;l
+: 1714477260:0;curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+: 1714477272:0;ls
+: 1714477274:0;cd ..
+: 1714477274:0;ls
+: 1714477279:0;mv zsh zsh.bak
+: 1714477534:0;ls
+: 1714477535:0;pwd
+: 1714477542:0;wpd
+: 1714477543:0;ls
+: 1714477545:0;whoami
+: 1714477554:0;cd $ZIM_HOME
+: 1714477554:0;ls
+: 1714477573:0;vim zimfw.zsh
+: 1714477575:0;ls
+: 1714477579:0;cd modules
+: 1714477579:0;ls
+: 1714477584:0;cd ..
+: 1714477588:0;vim init.zsh
+: 1714477590:0;ls
+: 1714477596:0;cd ..
+: 1714477600:0;code .
+: 1714477959:0;ls
+: 1714477963:0;ls
+: 1714477966:0;cd .pwd
+: 1714477967:0;pwd
+: 1714477978:0;pwd
+: 1714478001:0;ls
+: 1714478002:0;l
+: 1714478012:0;rm .wget-hsts
+: 1714478012:0;ls
+: 1714478013:0;cd .config
+: 1714478013:0;ls
+: 1714478015:0;cd 
+: 1714478016:0;cd Do
+: 1714478019:0;cd odc
+: 1714478022:0;cd Do
+: 1714478023:0;cd Documents
+: 1714478024:0;ls
+: 1714478026:0;cd doc
+: 1714478026:0;ls
+: 1714478029:0;cd
+: 1714478035:0;cd repositories/config
+: 1714478038:0;vim installed
+: 1714478044:0;ls
+: 1714478046:0;pwd
+: 1714478053:0;sudo pacman -Syu
+: 1714478106:0;ls
+: 1714478107:0;pwd
+: 1714478113:0;ls
+: 1714478130:0;cp -r ~/.config/zsh ~/repositories/config
+: 1714478151:0;ls
+: 1714478154:0;cd zsh
+: 1714478155:0;ls
+: 1714478156:0;l
+: 1714478169:0;cd ..
+: 1714478170:0;ls
+: 1714478170:0;pwd
+: 1714478172:0;whoami
+: 1714478177:0;ls
+: 1714478180:0;rm -rf zsh
+: 1714478181:0;ls
+: 1714478188:0;cp -r ~/.config/zsh ~/repositories/config

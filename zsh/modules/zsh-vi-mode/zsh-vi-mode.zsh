@@ -190,7 +190,7 @@ command -v 'zvm_version' >/dev/null && return
 typeset -gr ZVM_NAME='zsh-vi-mode'
 typeset -gr ZVM_DESCRIPTION='💻 A better and friendly vi(vim) mode plugin for ZSH.'
 typeset -gr ZVM_REPOSITORY='https://github.com/jeffreytse/zsh-vi-mode'
-typeset -gr ZVM_VERSION='0.10.0'
+typeset -gr ZVM_VERSION='0.11.0'
 
 # Plugin initial status
 ZVM_INIT_DONE=false
@@ -1285,11 +1285,13 @@ function zvm_default_handler() {
   case $(zvm_escape_non_printed_characters "$keys") in
     '^['|$ZVM_VI_INSERT_ESCAPE_BINDKEY)
       zvm_exit_insert_mode false
+      zvm_reset_prompt
       ZVM_KEYS=${extra_keys}
       return
       ;;
     [vV]'^['|[vV]$ZVM_VI_VISUAL_ESCAPE_BINDKEY)
       zvm_exit_visual_mode false
+      zvm_reset_prompt
       ZVM_KEYS=${extra_keys}
       return
       ;;
@@ -1317,10 +1319,12 @@ function zvm_default_handler() {
                 # Pushe the keys onto the input stack of ZLE, it's
                 # handled in zvm_readkeys_handler function
                 zvm_exit_visual_mode false
+                zvm_reset_prompt
                 return
                 ;;
               3)
                 zvm_exit_visual_mode false
+                zvm_reset_prompt
                 break
                 ;;
             esac
@@ -3093,7 +3097,7 @@ function zvm_select_vi_mode() {
   zvm_exec_commands 'after_select_vi_mode'
 
   # Stop and trigger reset-prompt
-  $reset_prompt && zvm_postpone_reset_prompt false
+  $reset_prompt && zvm_postpone_reset_prompt false true
 
   # Start the lazy keybindings when the first time entering the
   # normal mode, when the mode is the same as last mode, we get
@@ -3118,9 +3122,9 @@ function zvm_select_vi_mode() {
 # Postpone reset prompt
 function zvm_postpone_reset_prompt() {
   local toggle=$1
-  local force=$2
+  local force=${2:-false}
 
-  if [[ $force == true ]]; then
+  if $force; then
     ZVM_POSTPONE_RESET_PROMPT=1
   fi
 
@@ -3596,6 +3600,12 @@ function zvm_init() {
   # Fix BACKSPACE was stuck in zsh
   # Since normally '^?' (backspace) is bound to vi-backward-delete-char
   zvm_bindkey viins '^?' backward-delete-char
+
+  # Initialize ZVM_MODE value
+  case ${ZVM_LINE_INIT_MODE:-$ZVM_MODE_INSERT} in
+    $ZVM_MODE_INSERT) ZVM_MODE=$ZVM_MODE_INSERT;;
+    *) ZVM_MODE=$ZVM_MODE_NORMAL;;
+  esac
 
   # Enable vi keymap
   bindkey -v
