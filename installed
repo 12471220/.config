@@ -1,0 +1,15 @@
+1. brightnessctl
+- 2. alsa-utils
+3. xorg-xinit
+4. xorg-xrandr
+5. xorg-server
+6. xorg-xinput
+7. alsa-firmware
+8. pamixer
+9. pulseAudio
+10. picom
+11. feh
+13. npm
+14. thunar
+15. bluez
+16. bluez-utils

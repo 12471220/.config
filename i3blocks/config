@@ -1,4 +1,9 @@
 separator_block_width=30
+
+[weather]
+command=node $HOME/.config/i3blocks/scripts/mine/weather.js
+interval=3600
+
 [volume]
 label=vol 
 command=$HOME/.config/i3blocks/scripts/mine/volume.sh
@@ -8,6 +13,7 @@ interval=5
 label=bl 
 command=$HOME/.config/i3blocks/scripts/mine/brightness.sh
 interval=5
+
 [battery]
 label=bat 
 command=$HOME/.config/i3blocks/scripts/mine/battery.sh
