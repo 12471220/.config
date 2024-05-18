@@ -34,12 +34,12 @@ font pango:firacode nerd font 11
 exec --no-startup-id fcitx5
 #exec --no-startup-id /home/lx/Documents/scripts/changeWallpaper.sh &
 exec --no-startup-id picom
-exec --no-startup-id brightnessctl set 25
+exec --no-startup-id brightnessctl set 15
 #switch mouse left and right!
 exec_always --no-startup-id xinput set-button-map 11 3 2 1
 #exec --no-startup-id /opt/clash-for-windows-bin/cfw
 #exec --no-startup-id polybar
-exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/1.jpeg
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/5.jpg
 #exec_always ~/Documents/scripts/polybar_launch.sh
 
 # Swap left and right mouse buttons
@@ -204,7 +204,7 @@ bindsym $mod+r mode "resize"
 
 bar {
     status_command i3blocks
-    font pango:dejavu sans mono 11
+    font pango:DejaVu Sans Mono 11 
     position top
     height 35
     colors {
@@ -217,7 +217,7 @@ bar {
         # colors           outline background number
         focused_workspace  #ffffff #285577 #ffffff
         active_workspace   #ffffff #333333 #ffffff
-        inactive_workspace #888888 #222222 #777777
+        inactive_workspace #666666 #222222 #888888
         urgent_workspace   #ffffff #900000 #ffffff
     }
 }
@@ -225,8 +225,14 @@ bar {
 #=======window setting========
 gaps inner 6
 gaps outer 0
-#smart_gaps on
-default_border pixel 2
+smart_gaps on
+hide_edge_borders smart
+default_border pixel 1
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #FF4700
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-client.focused          #858585 #444444 #FFFFFF #FFFFFF #F3483F
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
+client.background       #ffffff
