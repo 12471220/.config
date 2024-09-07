@@ -2,7 +2,22 @@ separator_block_width=30
 
 [weather]
 command=node $HOME/.config/i3blocks/scripts/mine/weather.js
-interval=3600
+interval=1800
+
+# [power]
+# label=power 
+# command=$HOME/.config/i3blocks/scripts/mine/power.sh
+# interval=10
+
+[ethernet]
+label=eth 
+command=$HOME/.config/i3blocks/scripts/mine/ethernet.sh
+interval=10
+
+[wifi]
+label=wifi 
+command=$HOME/.config/i3blocks/scripts/mine/wifi.sh
+interval=10
 
 [volume]
 label=vol 

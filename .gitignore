@@ -1,4 +1,4 @@
 nvim/plugin/packer_compiled.lua
 zsh/modules
-i3blocks/scripts/i3blocks-contrib
 tmux/plugins
+i3blocks/scripts/i3blocks-contrib
