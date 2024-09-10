@@ -1,13 +1,19 @@
 separator_block_width=30
 
-[weather]
-command=node $HOME/.config/i3blocks/scripts/mine/weather.js
-interval=1800
+#Print click data
+#[aaa_test]
+#align=center
+#command=$HOME/.config/i3blocks/scripts/mine/aaa_test.sh
+#interval=3
 
 # [power]
 # label=power 
 # command=$HOME/.config/i3blocks/scripts/mine/power.sh
 # interval=10
+
+[weather]
+command=node $HOME/.config/i3blocks/scripts/mine/weather.js
+interval=1800
 
 [ethernet]
 label=eth 

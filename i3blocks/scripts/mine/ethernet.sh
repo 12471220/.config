@@ -9,4 +9,12 @@ check_ethernet() {
         echo "dis"
     fi
 }
-echo `check_ethernet`
+
+res=$(check_ethernet)
+echo $res
+echo
+if [ $res == "dis" ];then
+    echo "#F54D37"
+else
+    echo "#00FF00"
+fi
