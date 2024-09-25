@@ -53,4 +53,8 @@ fedora
 14. mpv
 15. flameshot
 16. libreoffice
-
+17. blueman
+18. NetworkManager-tui
+- 19. mesa-libGLw-devel
+- 20. glfw-devel
+21 sdl-devel
