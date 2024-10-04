@@ -58,3 +58,6 @@ fedora
 - 19. mesa-libGLw-devel
 - 20. glfw-devel
 21 sdl-devel
+22. android-tools
+23. gimp
+- 24. v4l-utils

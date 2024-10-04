@@ -2,3 +2,4 @@ nvim/plugin/packer_compiled.lua
 zsh/modules
 tmux/plugins
 i3blocks/scripts/i3blocks-contrib
+zsh/zsh_history
