@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/lx/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?.lua;/home/lx/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?/init.lua;/home/lx/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?.lua;/home/lx/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/lx/.cache/nvim/packer_hererocks/2.1.1694285958/lib/lua/5.1/?.so"
+local package_path_str = "/home/sc/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?.lua;/home/sc/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?/init.lua;/home/sc/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?.lua;/home/sc/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/sc/.cache/nvim/packer_hererocks/2.1.1720049189/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,19 +74,29 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/sc/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/sc/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/lx/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/sc/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/lx/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "/home/sc/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-snazzy"] = {
     loaded = true,
-    path = "/home/lx/.local/share/nvim/site/pack/packer/start/vim-snazzy",
+    path = "/home/sc/.local/share/nvim/site/pack/packer/start/vim-snazzy",
     url = "https://github.com/connorholyday/vim-snazzy"
   }
 }

@@ -6,9 +6,10 @@ local keymap=vim.keymap
 keymap.set("i","jk","<ESC>")
 
 -- ===visual===
+keymap.set("v","J","5j")
+keymap.set("v","K","5k")
 
 -- ===normal===
-  --cancel hl--
-keymap.set("n","<leader>nh",":nohl<CR>")
+keymap.set("n","<leader>nh",":nohl<CR>") --cancel hl--
 keymap.set("n","J","5j")
 keymap.set("n","K","5k")

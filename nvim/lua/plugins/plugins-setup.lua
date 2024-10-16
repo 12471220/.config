@@ -11,16 +11,20 @@ end
 
 local packer_bootstrap = ensure_packer()
 
+
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
-  -- My plugins here
+  -- My plugins heje plugin manager is packer.
   --use :PackerSync to install!
-  use 'vim-airline/vim-airline'
-  use 'connorholyday/vim-snazzy'
+  use {'vim-airline/vim-airline'}
+  use {'connorholyday/vim-snazzy'}
+  use {'morhetz/gruvbox'}
+  use {'github/copilot.vim'}
 
-  -- Automatically set up your configuration after cloning packer.nvim
+ ; -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
   end
 end)
+
