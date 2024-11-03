@@ -15,7 +15,7 @@ export NODE_HOME=$ENV_HOME/node-v18.20.4
 #export NODE_HOME=$ENV_HOME/node-v16.20.2
 export SCRIPT_DIR=$HOME/Documents/scripts
 #export MAVEN_HOME=$ENV_HOME/apache-maven-3.9.7
-export SSLKEYLOGFILE=$HOME/.config/sslog.log
+export SSLKEYLOGFILE=$HOME/.config/sslogdir/sslog.log
 
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$JAVA_HOME/bin"
@@ -38,7 +38,7 @@ alias fl="figlet"
 
 
 # Initialize modules.
-source ${ZIM_HOME}/proxy_set.zsh
+source ${ZIM_HOME}/myinit/proxy_set.zsh
 source ${ZIM_HOME}/init.zsh
 #source $ENV_HOME/pyenv/bin/activate
 

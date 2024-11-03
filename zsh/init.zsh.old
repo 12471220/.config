@@ -1,3 +1,5 @@
+# load modules
+
 zimfw() { source /home/sc/.config/zsh/zimfw.zsh "${@}" }
 zmodule() { source /home/sc/.config/zsh/zimfw.zsh "${@}" }
 fpath=(/home/sc/.config/zsh/modules/prompt-pwd/functions /home/sc/.config/zsh/modules/utility/functions /home/sc/.config/zsh/modules/git-info/functions ${fpath})
@@ -10,7 +12,3 @@ source /home/sc/.config/zsh/modules/zsh-vi-mode/zsh-vi-mode.zsh
 source /home/sc/.config/zsh/modules/completion/init.zsh
 source /home/sc/.config/zsh/modules/gitster/gitster.zsh-theme
 source /home/sc/.config/zsh/modules/utility/init.zsh
-
-
-export http_proxy='http://localhost:7890'
-export https_proxy='http://localhost:7890'

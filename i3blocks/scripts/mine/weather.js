@@ -1,8 +1,8 @@
 KEY="4b419e6478ef4f97a4fbf4435647c4a7"
-wuhu=101220307
 yuexi=101220608
+yijiang=101220307
 
-location=wuhu
+location=yijiang
 url='https://devapi.qweather.com/v7/weather/now?location='+location+'&key='+KEY+'&lang=en'
 fetch(url)
 .then(response => response.json())
