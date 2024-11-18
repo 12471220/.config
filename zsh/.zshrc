@@ -8,7 +8,7 @@ setopt share_history
 setopt histappend
 export ENV_HOME=$HOME/.local/env
 export ZIM_HOME=$HOME/.config/zsh
-export JAVA_HOME=$ENV_HOME/jdk-21.0.4
+export JAVA_HOME=$ENV_HOME/jdk1.8.0_431
 export GOPATH=$ENV_HOME/gopath
 export GO_HOME=$ENV_HOME/go
 export NODE_HOME=$ENV_HOME/node-v18.20.4
@@ -17,13 +17,13 @@ export SCRIPT_DIR=$HOME/Documents/scripts
 #export MAVEN_HOME=$ENV_HOME/apache-maven-3.9.7
 export SSLKEYLOGFILE=$HOME/.config/sslogdir/sslog.log
 
-export PATH="$PATH:$HOME/.local/bin"
-export PATH="$PATH:$JAVA_HOME/bin"
-export PATH="$PATH:$SCRIPT_DIR"
-export PATH="$PATH:$NODE_HOME/bin"
-export PATH="$PATH:$GO_HOME/bin"
-export PATH="$PATH:$GOPATH"
-#export PATH="$PATH:$MAVEN_HOME/bin"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$JAVA_HOME/bin:$PATH"
+export PATH="$SCRIPT_DIR:$PATH:$PATH"
+export PATH="$NODE_HOME/bin:$PATH"
+export PATH="$GO_HOME/bin:$PATH"
+export PATH="$GOPATH:$PATH"
+#export PATH="$MAVEN_HOME/bin:$PATH"
 
 #+----------------------+
 #|        alias         |
@@ -34,6 +34,7 @@ alias nv="nvim"
 alias fm="thunar"
 alias lg="lazygit"
 alias fl="figlet"
+alias code="cursor"
 
 
 
