@@ -9,31 +9,39 @@
 9. pulseAudio
 10. picom
 11. feh
-13. npm
-14. thunar
-15. bluez
-16. bluez-utils
-- 17. upower
-18. man-db
-19. wget
-20. tlp
-- 21. pinta
-22. typora
-23. dunst
-- 24. godot
-25. libreoffice
-- 26. python-distutils-extra
-- 27. unzip
-- 28. rsync
-29. tree
-30. flameshot
-31. xclip
-- 32. git-lfs
-33. acpi
-- 34. miniconda
-- 35. pulseaudio-alsa
-36. mpv
-
+12. npm
+13. thunar
+14. bluez
+15. bluez-utils
+- 16. upower
+17. man-db
+18. wget
+19. tlp
+- 20. pinta
+21. typora
+22. dunst
+- 23. godot
+24. libreoffice
+- 25. python-distutils-extra
+- 26. unzip
+- 27. rsync
+28. tree
+39. flameshot
+30. xclip
+- 31. git-lfs
+32. acpi
+- 33. miniconda
+- 34. pulseaudio-alsa
+35. mpv
+- 36. blendr :wireless bluetooth
+47. ncurse :for mysql(aready installed)
+- 38. kdenlive
+39. pcmanfm
+40. shotcut
+41. wemeet-bin
+- 42. openshot
+43. krita
+44. strace
 
 fedora
 1. sqlite
@@ -57,7 +65,7 @@ fedora
 18. NetworkManager-tui
 - 19. mesa-libGLw-devel
 - 20. glfw-devel
-21 sdl-devel
+21. sdl-devel
 22. android-tools
 23. gimp
 - 24. v4l-utils

@@ -55,11 +55,17 @@ tiling_drag modifier titlebar
 
 #=======excutable programs bind=======
 bindsym $mod+c exec google-chrome-stable
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 #bindsym $mod+d exec --no-startup-id rofi -show run
 bindsym Print exec --no-startup-id scrot %Y-%m-%d_%H:%M:%S.png -z -e 'mv $f ~/Pictures/ScreenShot/'
-bindsym $mod+d exec --no-startup-id dmenu_run -fn 'firacode nerd font:12' -sb '#555555' -nb '#222222'
+
+# sb: selected background color
+# nb: not selected background color
+# sf: selected foreground color 
+# nf: not selected foreground color.
+# #D5B2E7 #BD9FCF
+bindsym $mod+d exec --no-startup-id dmenu_run -fn 'firacode nerd font:style=bold:12' -sb '#BD9FCF' -nb '#444444' -sf '#000000'
 
 # change focus
 bindsym $mod+j focus down
