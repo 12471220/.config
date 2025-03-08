@@ -30,7 +30,7 @@
 30. xclip
 - 31. git-lfs
 32. acpi
-- 33. miniconda
+33. miniconda
 - 34. pulseaudio-alsa
 35. mpv
 - 36. blendr :wireless bluetooth
@@ -40,32 +40,16 @@
 40. shotcut
 41. wemeet-bin
 - 42. openshot
-43. krita
+- 43. krita
 44. strace
-
-fedora
-1. sqlite
-2. brightnessctl
-3. xorg-init
-4. xorg-server
-5. i3
-6. feh
-7. pulseaudio-utils
-8. docker-ce
-8. pulseaudio
--9. ulauncher
-10. fuse
-11. tlp
-12. simple screen recorder
-#13. vlc
-14. mpv
-15. flameshot
-16. libreoffice
-17. blueman
-18. NetworkManager-tui
-- 19. mesa-libGLw-devel
-- 20. glfw-devel
-21. sdl-devel
-22. android-tools
-23. gimp
-- 24. v4l-utils
+45. pulseaudio-bluetooth
+45. blue-tui
+- 46. dnsmasq
+- 47. hostapd
+- 48. dialog
+- 49. netctl
+50. fcitx5-im-emoji-picker-git
+51. rpi-imager
+52. gvfs-mtp
+- 53. qbittorrent: torrent client
+54. xdotool
