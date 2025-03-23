@@ -9,8 +9,8 @@ elif [[ $statue == "Full" ]]; then
     statue="F"
 elif [[ $statue == 'Not' ]];then
     statue='notc'
-else
-    statue="unknown"
+#else
+    #statue="unknown"
 fi
 echo $battery"("$statue")"
 # echo `acpi|awk '{gsub(",|%","");print $4"("$3")"}'`

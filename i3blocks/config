@@ -12,7 +12,7 @@ separator_block_width=30
 # interval=10
 
 [weather]
-command=node $HOME/.config/i3blocks/scripts/mine/weather.js
+command=node $HOME/.config/i3blocks/scripts/mine/weather/weather.js
 interval=1800
 
 [ethernet]

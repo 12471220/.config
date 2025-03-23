@@ -1,3 +1,4 @@
+# pamixer needs pulseaudio to be running
 if [ $(pamixer --get-mute) == "true" ];then
     echo 'mute'
     echo
