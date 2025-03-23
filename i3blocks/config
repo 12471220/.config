@@ -3,41 +3,41 @@ separator_block_width=30
 #Print click data
 #[aaa_test]
 #align=center
-#command=$HOME/.config/i3blocks/scripts/mine/aaa_test.sh
+#command=$HOME/.config/i3blocks/scripts/aaa_test.sh
 #interval=3
 
 # [power]
 # label=power 
-# command=$HOME/.config/i3blocks/scripts/mine/power.sh
+# command=$HOME/.config/i3blocks/scripts/power.sh
 # interval=10
 
 [weather]
-command=node $HOME/.config/i3blocks/scripts/mine/weather/weather.js
+command=node ./scripts/weather/weather.js
 interval=1800
 
 [ethernet]
 label=eth 
-command=$HOME/.config/i3blocks/scripts/mine/ethernet.sh
+command=./scripts/ethernet.sh
 interval=10
 
 [wifi]
 label=wifi 
-command=$HOME/.config/i3blocks/scripts/mine/wifi.sh
+command=./scripts/wifi.sh
 interval=10
 
 [volume]
 label=vol 
-command=$HOME/.config/i3blocks/scripts/mine/volume.sh
+command=./scripts/volume.sh
 interval=5
 
 [brightness]
 label=bl 
-command=$HOME/.config/i3blocks/scripts/mine/brightness.sh
+command=./scripts/brightness.sh
 interval=5
 
 [battery]
 label=bat 
-command=$HOME/.config/i3blocks/scripts/mine/battery.sh
+command=./scripts/battery.sh
 interval=30
 
 [time]

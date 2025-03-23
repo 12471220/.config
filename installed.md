@@ -53,3 +53,4 @@
 52. gvfs-mtp
 - 53. qbittorrent: torrent client
 54. xdotool
+55. v2rayn-bin
