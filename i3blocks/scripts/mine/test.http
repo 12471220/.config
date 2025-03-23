@@ -1,4 +1,0 @@
-# 构思和风天气让免费的API接口和付费的不一样
-# GET https://devapi.qweather.com/v7/weather/now?location=101010100&key=4b419e6478ef4f97a4fbf4435647c4a7&lang=en
-
-GET https://geoapi.qweather.com/v2/city/lookup?location=yijiang&key=4b419e6478ef4f97a4fbf4435647c4a7
