@@ -44,7 +44,7 @@ function displayWeatherInfo(data, flg) {
     // expired time
     const expiredTime = new Date(data.updateTime);
     // minutes
-    const minutes = expiredTime.getHours() - now.getHours();
+    const minutes = now.getHours() - expiredTime.getHours() ;
     console.log(`${data.now.text}(${data.now.temp}°C, ${minutes}h ago)`);
   }
 }

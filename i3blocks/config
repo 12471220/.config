@@ -1,15 +1,9 @@
 separator_block_width=30
 
-#Print click data
-#[aaa_test]
-#align=center
-#command=$HOME/.config/i3blocks/scripts/aaa_test.sh
-#interval=3
-
-# [power]
-# label=power 
-# command=$HOME/.config/i3blocks/scripts/power.sh
-# interval=10
+[daily_words]
+full_text=daily_words
+command=./scripts/daily_word/main.sh
+color=#FFF00
 
 [weather]
 command=node ./scripts/weather/weather.js
