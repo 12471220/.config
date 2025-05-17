@@ -1,3 +1,4 @@
+# use zimfw in terminal
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-autosuggestions
 zmodule zdharma-continuum/fast-syntax-highlighting
@@ -9,3 +10,4 @@ zmodule gitster
 zmodule prompt-pwd
 zmodule utility
 zmodule git-info
+

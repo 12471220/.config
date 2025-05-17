@@ -4,4 +4,5 @@ tmux/plugins
 i3blocks/scripts/i3blocks-contrib
 i3blocks/scripts/weather/weather_data.json
 zsh/zsh_history
+zsh/zsh_history.bak
 fastfetch/presets
