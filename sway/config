@@ -1,0 +1,8 @@
+set $conf_home /home/sc/.config/sway
+
+include $conf_home/vars.conf
+include $conf_home/base.conf
+include $conf_home/sof_init.conf
+include $conf_home/sof_bind.conf
+include $conf_home/sof_sett.conf
+include $conf_home/mouse.conf
