@@ -1,0 +1,7 @@
+set $conf_home /home/sc/.config/i3
+set $mod Mod4
+
+include $conf_home/base.conf
+include $conf_home/sof_init.conf
+include $conf_home/sof_bind.conf
+include $conf_home/mouse.conf

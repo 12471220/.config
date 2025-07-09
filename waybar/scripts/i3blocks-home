@@ -1,0 +1,17 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2025
+
+usage="$(command df /home | awk 'NR==2 {print $5}')"
+
+icon=""
+
+# ` `(U+2009) is the Thin Space
+echo "$icon" "$usage"
+
+case $BLOCK_BUTTON in
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$(df -h -x tmpfs -x efivarfs -x devtmpfs | awk 'NR=2 {print $6 "\t" $2 "\t" $4}' | grep -ve '^/run' -ve '^/opt' -ve '^/mnt')"
+        ;;
+    1) pkill -SIGRTMIN+13 i3blocks &
+        ;;
+esac

@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# @author nate zhou
+# @since 2025
+
+WTTR_CACHE="$HOME/.cache/wttr"
+WTTR_CACHE2="$HOME/.cache/wttr2"
+update_time="$(stat -c "%Y" "$WTTR_CACHE")"
+current_time="$(date +%s)"
+
+#result="$(sed 's/^.//; s/ // ; s/\+//' $WTTR_CACHE)"
+result="$(sed 's/ //; s/\+//' $WTTR_CACHE)"
+color="#eeeeee"
+#icon="󰅟"
+
+(( current_time - update_time > 86400 )) && result=""
+
+echo "$icon""$result"
+echo ""
+
+[ -z "$result" ] && color="#888888"
+
+echo "$color"
+
+case $BLOCK_BUTTON in
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$(cat $HOME/.cache/wttr)"
+        ;;
+    1) updw>/dev/null & # This script send signal 7 to update i3blocks module
+        ;;
+esac
+

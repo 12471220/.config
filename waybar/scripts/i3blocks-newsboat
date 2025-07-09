@@ -1,0 +1,22 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2025
+
+result="$(cat $HOME/.cache/newsboat.num)"
+
+icon="󰡠"
+color="#ffffff"
+
+[ "$result" -eq 0 ] || [ -z "$result" ] && color="#888888"
+
+# ` `(U+2009) is the Thin Space
+echo "$icon" "$result"
+echo
+echo "$color"
+
+case $BLOCK_BUTTON in
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$(newsboat -x print-unread)"
+        ;;
+    1) newsboat-num-cron --now >/dev/null &
+        ;;
+esac

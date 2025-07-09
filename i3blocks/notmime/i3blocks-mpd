@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# @author nate zhou
+# @since 2025
+
+icon=""
+# sed: remove parentheses`()`, trailing spaces, and ampersand `&` because they break pango
+title="$(mpc current -f "[%title%]" | sed 's/([^()]*)//g; s/[[:space:]-]*$//; s/[&]//g' | cut -c1-40 )"
+[ -z "$title" ] && color="#888888"
+
+# ` `(U+2009) is the Thin Space
+echo "$icon" "<small>$title</small>"
+echo
+
+color="#ffffff"
+if [[ -z "$title" || "$(mpc status | sed -n '2p' )" =~ '[paused]' ]]; then
+    color="#888888"
+fi
+
+echo "$color"
+
+case $BLOCK_BUTTON in
+    2) mpc toggle>/dev/null &
+        ;;
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$(mpc current)"
+        ;;
+    #4) mpc prev>/dev/null &
+    #    ;;
+    #5) mpc next>/dev/null &
+    #    ;;
+esac

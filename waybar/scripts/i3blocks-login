@@ -1,0 +1,22 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2025
+
+tty_count="$(w -h | wc -l )"
+color="#ffffff"
+[ "$tty_count" -eq 1 ] && color="#888888"
+
+icon=""
+# ` `(U+2009) is the Thin Space
+
+echo "$icon" "$tty_count"
+echo
+echo "$color"
+
+case $BLOCK_BUTTON in
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$(w -h | awk '{print $1,$2,$3}')"
+        ;;
+    1) pkill -SIGRTMIN+14 i3blocks &
+        ;;
+esac
+

@@ -1,0 +1,24 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/x-ole-storage=google-chrome.desktop
+clash-nyanpasu=clash-nyanpasu-handler.desktop
+x-scheme-handler/clash=clash-verge.desktop
+x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop
+application/epub+zip=org.gnome.Evince.desktop
+clash=clash-verge-handler.desktop
+clash-verge=clash-verge-handler.desktop
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
+application/pdf=google-chrome.desktop
+inode/directory=pcmanfm-qt.desktop
+
+[Added Associations]
+application/x-ole-storage=google-chrome.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/epub+zip=org.gnome.Evince.desktop;
+text/markdown=cursor-cursor.desktop;
+application/json=cursor-cursor.desktop;
+application/x-executable=nvim.desktop;

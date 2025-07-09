@@ -1,0 +1,54 @@
+# Global properties
+separator=true
+separator_block_width=30
+markup=pango
+color=#ffffff
+#background=#00435e
+#border=#222222
+
+#[warning]
+#full_text="凡事三思而后行!"
+#interval=once
+#color=#ff0000
+#background=#073ba6
+
+[weather]
+command=node ./scripts/weather/weather.js
+interval=1800
+
+[cpu]
+command=./scripts/cpu.sh
+interval=3
+
+[memory]
+command=./scripts/memory.sh
+interval=3
+
+[ethernet]
+command=./scripts/ethernet.sh
+interval=10
+
+[wifi]
+command=./scripts/wifi.sh
+interval=10
+
+[volume]
+command=./scripts/volume.sh
+interval=5
+
+[brightness]
+command= ./scripts/brightness.sh
+interval=5
+
+[battery]
+command=./scripts/battery.sh
+interval=30
+
+[time]
+command= date +"%a %m/%d %H:%M"
+interval=20
+
+[traysplit]
+command=echo ""
+interval=once
+

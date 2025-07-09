@@ -1,0 +1,24 @@
+#!/usr/bin/sh
+# river/rivercarro
+# @author nate zhou
+# @since 2025
+
+mod=Mod4    # Mod1=Alt, Mod4=Super
+
+riverctl default-layout rivercarro
+rivercarro -per-tag -no-smart-gaps -inner-gaps 12 -outer-gaps 12 -main-ratio 0.50 &
+
+# adjust ratio
+riverctl map -repeat normal $mod h send-layout-cmd rivercarro "main-ratio -0.05"
+riverctl map -repeat normal $mod l send-layout-cmd rivercarro "main-ratio +0.05"
+
+# adjust main count
+riverctl map normal ${mod}+Shift h send-layout-cmd rivercarro "main-count +1"
+riverctl map normal ${mod}+Shift l send-layout-cmd rivercarro "main-count -1"
+
+# layout management
+riverctl map normal ${mod}+Control h  send-layout-cmd rivercarro "main-location left"
+riverctl map normal ${mod}+Control j  send-layout-cmd rivercarro "main-location bottom"
+riverctl map normal ${mod}+Control k    send-layout-cmd rivercarro "main-location top"
+riverctl map normal ${mod}+Control l send-layout-cmd rivercarro "main-location right"
+riverctl map normal ${mod}+Control m send-layout-cmd rivercarro "main-location monocle"

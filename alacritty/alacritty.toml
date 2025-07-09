@@ -1,0 +1,37 @@
+[font.normal]
+family = "sauce code pro nerd font"
+#family = "firacode nerd font"
+#family = "dejavu sans mono"
+style = "Regular"
+
+[font.bold]
+family = "sauce code pro nerd font"
+#family = "firacode nerd font"
+#family = "dejavu sans mono"
+style = "Bold"
+
+[font.italic]
+family = "sauce code pro nerd font"
+#family = "firacode nerd font"
+#family = "dejavu sans mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "sauce code pro nerd font"
+#family = "firacode nerd font"
+#family = "dejavu sans mono"
+style = "Bold Italic"
+
+[font]
+size = 12
+
+[window.dimensions]
+columns = 100
+lines = 35
+[window]
+opacity = 0.95 #half touming
+
+[scrolling]
+history = 3000
+multiplier = 3
+

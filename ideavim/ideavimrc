@@ -1,0 +1,42 @@
+" basic stuff
+set hlsearch
+set scrolloff=999
+set ignorecase smartcase
+set showmode
+set history=1000
+set incsearch
+set clipboard+=unnamed
+set relativenumber
+set visualbell
+set showcmd
+set showmode
+set number
+
+" extensions
+set surround
+set multiple-cursors
+set highlightedyank
+set NERDTree
+set argtextobj
+set sneak
+set quickscope
+
+" register leader
+let mapleader = " "
+
+
+#set novisualbell  " 禁止视觉响铃(屏幕闪烁)
+set t_vb=          " 禁止终端响铃
+nnoremap J 5j
+nnoremap K 5k
+inoremap jk <ESC>
+vnoremap J 5j
+vnoremap K 5k
+
+
+" Yank and paste from clipboard
+nnoremap ,y "+y
+vnoremap ,y "+y
+nnoremap ,yy "+yy
+nnoremap ,p "+p
+
