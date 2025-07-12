@@ -1,5 +1,7 @@
 #!/bin/bash
-ip=localhost
+# @author sc
+# @scince 2025
+ip=127.0.0.1
 port=7890
 change_proxy() {
     if [ -z "$http_proxy" ] || [ -z "$https_proxy" ]; then
