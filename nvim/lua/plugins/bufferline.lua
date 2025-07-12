@@ -44,11 +44,6 @@ return
         always_show_bufferline = true,
         sort_by = 'insert_after_current',
         
-        hover = {
-          enabled = true,
-          delay = 200,
-          reveal = {'close'}
-        },
       }
     })
   end,
