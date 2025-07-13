@@ -55,7 +55,7 @@ echo
 # echo "$color"
 
 case $BLOCK_BUTTON in
-    3) notify-send -u low -r 3301 "$icon $status($(basename "$0"))" "Rate: $level"
+    3) notify-send -u low -r 3301 "$icon $status($(basename "$0"))" "Rate: $level%"
         ;;
     1) pkill +SIGRTMIN+12 i3blocks &
         ;;

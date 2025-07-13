@@ -13,7 +13,8 @@ color=#ffffff
 #background=#073ba6
 
 [weather]
-command=node ./scripts/weather/weather.js
+#command=node ./scripts/weather/weather.js
+command=. $HOME/.local/scripts/std-wttr.sh
 interval=1800
 
 [cpu]
@@ -46,6 +47,7 @@ interval=30
 
 [time]
 command= date +"%a %m/%d %H:%M"
+command=. $HOME/.local/scripts/std-datetime.sh
 interval=20
 
 [traysplit]
