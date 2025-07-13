@@ -5,3 +5,4 @@ init.zsh*
 zimfw.zsh*
 .zcompcache/
 login_init.zsh
+.latest_version
