@@ -40,5 +40,5 @@ vim.opt.smartcase=true
 -- highlight column
 vim.opt.cursorcolumn=true
 vim.opt.termguicolors = true
-
+-- enable mouse-event support
 vim.opt.mousemoveevent=true

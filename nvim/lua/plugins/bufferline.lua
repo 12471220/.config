@@ -18,11 +18,12 @@ return
         buffer_close_icon = '󰅖',       -- 自定义关闭按钮的图标（可选）
         close_icon = ' ',
         modified_icon = '●',
-        left_trunc_marker = '',
-        right_trunc_marker = '',
+        left_trunc_marker = '',
+        right_trunc_marker = '',
         max_name_length = 18,
         max_prefix_length = 15,
         tab_size = 18,
+        truncate_names = true, -- whether or not tab names should be truncated
         --diagnostics = "nvim_lsp", -- 显示 LSP 诊断
         diagnostics_update_in_insert = false,
         offsets = {

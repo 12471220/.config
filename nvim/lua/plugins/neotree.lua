@@ -68,7 +68,7 @@ return {
 
       require("neo-tree").setup({
         -- 基础设置
-        close_if_last_window = false, -- 如果 Neo-tree 是标签页中的最后一个窗口，不要关闭它
+        close_if_last_window = true, -- if enotree is the last window, close it
         popup_border_style = "NC", -- 弹出窗口边框样式，或使用 "" 在 Neovim v0.11+ 中使用 'winborder'
         enable_git_status = true, -- 启用 Git 状态显示
         enable_diagnostics = true, -- 启用诊断信息显示
@@ -106,9 +106,9 @@ return {
           },
           -- 图标配置
           icon = {
-            folder_closed = "", -- 关闭文件夹图标
-            folder_open = "", -- 打开文件夹图标
-            folder_empty = "󰜌", -- 空文件夹图标
+            folder_closed = "", -- 关闭文件夹图标
+            folder_open = "", -- 打开文件夹图标
+            folder_empty = "", -- 空文件夹图标
             -- 默认图标提供者，如果可用会使用 nvim-web-devicons
             provider = function(icon, node, state)
               if node.type == "file" or node.type == "terminal" then
@@ -140,17 +140,16 @@ return {
           -- Git 状态配置
           git_status = {
             symbols = {
-              -- 变更类型
-              added = "", -- 新增文件符号
-              modified = "", -- 修改文件符号
-              deleted = "✖", -- 删除文件符号（只能在 git_status 源中使用）
-              renamed = "󰁕", -- 重命名文件符号（只能在 git_status 源中使用）
+              added = "A", -- 新增文件符号
+              modified = "M", -- 修改文件符号
+              deleted = "D", -- 删除文件符号(只能在 git_status 源中使用)
+              renamed = "R", -- 重命名文件符号(只能在 git_status 源中使用)
               -- 状态类型
-              untracked = "", -- 未跟踪文件符号
-              ignored = "", -- 忽略文件符号
-              unstaged = "󰄱", -- 未暂存文件符号
-              staged = "", -- 已暂存文件符号
-              conflict = "", -- 冲突文件符号
+              untracked = "U", -- 未跟踪文件符号
+              ignored = "I", -- 忽略文件符号
+              unstaged = "W", -- 未暂存文件符号 (Working directory)
+              staged = "S", -- 已暂存文件符号 (Staged)
+              conflict = "C", -- 冲突文件符号
             },
           },
           -- 如果你不想使用这些列，可以为每个列单独设置 `enabled = false`
