@@ -25,7 +25,7 @@ export CUDA_HOME=/opt/cuda/
 export EDITOR="nvim"
 
 export PATH="$JAVA_HOME/bin:$PATH"
-export PATH="$SCRIPT_DIR:$PATH:$PATH"
+export PATH="$SCRIPT_HOME:$PATH:$PATH"
 export PATH="$NODE_HOME/bin:$PATH"
 export PATH="$GO_HOME/bin:$PATH"
 export PATH="$GOPATH:$PATH"
