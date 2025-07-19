@@ -3,12 +3,10 @@
 # @author nate zhou
 # @since 2025
 
-mod=Mod4    # Mod1=Alt, Mod4=Super
+mod=Mod4
 
 riverctl default-layout rivertile
-rivertile -view-padding 6 -outer-padding 6 -main-ratio 0.50 &
-
-# bindings
+rivertile -view-padding 6 -outer-padding 6 -main-ratio 0.60 &
 
 # adjust ratio
 riverctl map -repeat normal $mod h send-layout-cmd rivertile "main-ratio -0.05"
@@ -19,7 +17,7 @@ riverctl map normal ${mod}+Shift h send-layout-cmd rivertile "main-count +1"
 riverctl map normal ${mod}+Shift l send-layout-cmd rivertile "main-count -1"
 
 # layout management
-riverctl map normal ${mod}+Control h  send-layout-cmd rivertile "main-location left"
-riverctl map normal ${mod}+Control j  send-layout-cmd rivertile "main-location bottom"
-riverctl map normal ${mod}+Control k    send-layout-cmd rivertile "main-location top"
+riverctl map normal ${mod}+Control h send-layout-cmd rivertile "main-location left"
+riverctl map normal ${mod}+Control j send-layout-cmd rivertile "main-location bottom"
+riverctl map normal ${mod}+Control k send-layout-cmd rivertile "main-location top"
 riverctl map normal ${mod}+Control l send-layout-cmd rivertile "main-location right"

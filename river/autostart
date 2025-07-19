@@ -3,30 +3,21 @@
 # @since 2025
 # river/autostart
 
-# restart
-killall -q swaybg fcitx5 mpc
+# -q: quiet, don"t print errors
+killall -q swaybg fcitx5 notifyd.sh dam
 
-riverctl spawn "swaybg -i $HOME/.local/share/wallpaper -m fill"
+riverctl spawn "$SCRIPT_HOME/bgimg-random.sh"
 
-# restart decided by scripts
-riverctl spawn "$HOME/.local/bin/foots" # foot server
-
-riverctl spawn "$HOME/.local/sbin/clsd"
+riverctl spawn "$SCRIPT_HOME/foot-server.sh"
+riverctl spawn "$SCRIPT_HOME/notifyd.sh"
 
 # start if not running
-#pgrep 'i3bar-river' || riverctl spawn "i3bar-river"
-pgrep 'dam' || riverctl spawn "$HOME/.local/bin/damblocks | dam"
+riverctl spawn "$SCRIPT_HOME/std/std-dambar.sh | dam"
 
-pgrep 'swayidle' || riverctl spawn "swayidle"
+pgrep "swayidle" || riverctl spawn "swayidle"
 
-pgrep "gammastep" || riverctl spawn "gammastep -O 5000"
+#pgrep -f "wl-paste --watch cliphist store" || riverctl spawn "wl-paste --watch cliphist store"
 
-pgrep -f 'wl-paste --watch cliphist store' || riverctl spawn "wl-paste --watch cliphist store"
+pgrep "mako" || riverctl spawn "mako"
 
-pgrep 'dunst' || riverctl spawn "dunst"
-
-pgrep 'wob' || riverctl spawn "$HOME/.local/bin/wobd" # wob daemon
-
-riverctl spawn "fcitx5 -d" # conflicts with wtype
-
-#pgrep -f 'footclient -T Scratchpad_Tmux' || riverctl spawn "footclient -T Scratchpad_Tmux $HOME/.local/bin/tmuxd" # disabled for not obeying window rules, start manually instead
+riverctl spawn "fcitx5 -d"

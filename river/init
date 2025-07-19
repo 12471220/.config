@@ -1,27 +1,22 @@
 #!/usr/bin/sh
 # @author nate zhou
+# @modifier sc
 # @since 2025
-# river/init
 
-. $HOME/.local/bin/colors.sh    # source colorscheme
 . $HOME/.config/river/autostart
 . $HOME/.config/river/bindings
-. $HOME/.config/river/modes
+#. $HOME/.config/river/modes
+. $HOME/.config/river/rivertile
 
 # remap key
 #riverctl keyboard-layout-file "$HOME/.config/layout.xkb"
 
-# output
-#riverctl spawn "$HOME/.local/bin/wlr-output"
+# display
+wlr-randr --output eDP-1 --scale 1.5
+# input HZ, ms
+riverctl set-repeat 30 300
 
-# layout
-#. $HOME/.config/river/rivercarro
-#. $HOME/.config/river/rivertile
-
-# input
-riverctl set-repeat 30 200
-
-riverctl hide-cursor timeout 3000
+riverctl hide-cursor timeout 5000
 riverctl hide-cursor when-typing enabled
 
 # enable tap-to-click for touchpads
@@ -30,12 +25,12 @@ for i in $(riverctl list-inputs | grep -i touchpad); do
 done
 
 # border
-riverctl border-color-focused 0x4c7899 
-riverctl border-color-unfocused 0x333333 
-riverctl border-width 3
+riverctl border-color-focused 0xf44d40 # tomato red
+riverctl border-color-unfocused 0x333333 # dark gray
+riverctl border-width 2
 
 # window rules
-riverctl rule-add -app-id "*" ssd   # fix border for every window
+riverctl rule-add -app-id "*" ssd # Server-Side Decorations（服务端装饰）
 riverctl rule-add -app-id "file-*" float # GIMP file import/export
 riverctl rule-add -app-id "script-fu" float # GIMP gegl operations
 
