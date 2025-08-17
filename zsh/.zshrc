@@ -15,7 +15,7 @@ export NODE_HOME=$ENV_HOME/node-v22.15.0
 #export NODE_HOME=$ENV_HOME/node-v16.20.2
 export SCRIPT_HOME=$HOME/.local/scripts
 export MAVEN_HOME=$ENV_HOME/apache-maven-3.9.9
-export SSLKEYLOGFILE=$HOME/.config/sslogdir/sslog.log
+export SSLKEYLOGFILE=$HOME/.cache/sslog.log
 export JAVA_8_HOME=$ENV_HOME/jdk1.8.0_431
 export JAVA_11_HOME=$ENV_HOME/jdk-11.0.25+9
 export JAVA_17_HOME=$ENV_HOME/jdk-17.0.13+11
@@ -44,6 +44,7 @@ alias fl="figlet"
 alias br='blendr'
 alias fm='pcmanfm-qt'
 alias cl='clear'
+alias reader='xournalpp'
 
 # +----------------------+
 # |     init scripts     |
