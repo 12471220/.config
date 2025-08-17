@@ -22,8 +22,8 @@
         , "memory"
         , "network#wifi"
         , "network#ethernet"
-        , "wireplumber"
         , "backlight"
+        , "wireplumber"
         , "battery"
         , "clock"
         , "tray"
@@ -128,7 +128,7 @@
     "network#ethernet": {
         "interface": "eno1", // (Optional) To force the use of this interface
         "format-ethernet": "󰈁",
-        "format-disconnected": "󰈀",
+        "format-disconnected": "󰈂",//󰈀
         "format-disabled": "󰈂",
         //"format-icons": ["󰈁"],
         "tooltip-format": "{ifname}",
@@ -137,7 +137,7 @@
     },
     "wireplumber": {
         "format": "{icon} {volume}%",
-        "format-muted": "",
+        "format-muted": " {volume}%",
         //"on-click": "helvum",
         "format-icons": ["", "", ""],
     }

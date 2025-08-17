@@ -35,8 +35,8 @@ button {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: #bd9fcf;
-    color: #000000;
+    background: #222222;
+    color: #f44d40;
     /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
@@ -52,12 +52,12 @@ button:hover {
     font-size: 16px;
     padding: 0 5px;
     background-color: #222222;
-    color: #ffffff;
 }
 
 /* useless, cause I don't show tag which I haven't used. */
 #tags button.occupied {
     background-color: #444444;
+    color: #ffffff;
 }
 #tags button.focused {
     background-color: #bd9fcf;
@@ -66,6 +66,7 @@ button:hover {
 }
 #tags button.urgent {
     background-color: #f44d40;
+    color: #ffffff;
 }
 
 #clock,
@@ -77,14 +78,12 @@ button:hover {
 #backlight,
 #network,
 #wireplumber,
-#custom-media,
 #tray,
 #mode,
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
-#custom-weather
-{
+#custom-weather {
     padding: 0 10px;
     color: #ffffff;
     background-color: #333333;
@@ -201,7 +200,6 @@ tooltip {
 #backlight:hover,
 #network:hover,
 #wireplumber:hover,
-#custom-media:hover,
 #mode:hover,
 #idle_inhibitor:hover,
 #scratchpad:hover,
