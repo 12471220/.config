@@ -24,6 +24,10 @@ for i in $(riverctl list-inputs | grep -i touchpad); do
     riverctl input "$i" tap enabled
 done
 
+# enable left handed mode for Logitech USB receiver
+riverctl input "pointer-1133-50504-Logitech_USB_Receiver_Mouse" left-handed enabled 
+riverctl input "pointer-1133-45098-Logitech_Signature_M650" left-handed enabled 
+
 # border
 riverctl border-color-focused 0xf44d40 # tomato red
 riverctl border-color-unfocused 0x333333 # dark gray

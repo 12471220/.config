@@ -12,11 +12,9 @@ riverctl map normal ${mod}+Shift r spawn "$HOME/.config/river/init"
 
 riverctl map normal $mod Return spawn $term
 
-riverctl map normal Control+Shift Return spawn "footclient -T Scratchpad_Tmux $HOME/.local/bin/tmuxd"
+riverctl map normal $mod c spawn "google-chrome-stable"
 
-riverctl map normal $mod c spawn "firefox"
-
-riverctl map normal $mod d spawn "wmenu-run -f 'FiraCodeNerdFont Bold 11' -S '#bb9fff' -n '#555555' -s '#000000'"
+riverctl map normal $mod d spawn "wmenu-run -f 'FiraCodeNerdFont Bold 13' -S '#bd9fcf' -n '#aaaaaa' -s '#000000'"
 
 riverctl map -release normal ${mod}+Shift+Control l spawn "swaylock"
 
@@ -26,18 +24,23 @@ riverctl map normal ${mod}+Shift p exit
 
 riverctl map normal None Caps_Lock spawn "$HOME/.local/bin/capslock"
 
-#riverctl map normal $mod n spawn "dunstctl close"
-#riverctl map normal ${mod}+Shift n spawn "dunstctl history-pop"
-
-riverctl map normal $mod F1 spawn "$SCRIPT_HOME/media-control/volume-control.sh mute"
+# volume
+riverctl map normal         $mod F1 spawn "$SCRIPT_HOME/media-control/volume-control.sh mute"
 riverctl map -repeat normal $mod F2 spawn "$SCRIPT_HOME/media-control/volume-control.sh down"
 riverctl map -repeat normal $mod F3 spawn "$SCRIPT_HOME/media-control/volume-control.sh up"
+
+riverctl map normal         None XF86AudioMute        spawn "$SCRIPT_HOME/media-control/volume-control.sh mute"
+riverctl map -repeat normal None XF86AudioLowerVolume spawn "$SCRIPT_HOME/media-control/volume-control.sh down"
+riverctl map -repeat normal None XF86AudioRaiseVolume spawn "$SCRIPT_HOME/media-control/volume-control.sh up"
 
 riverctl map -repeat normal $mod F5 spawn "$SCRIPT_HOME/media-control/brightness-control.sh down"
 riverctl map -repeat normal $mod F6 spawn "$SCRIPT_HOME/media-control/brightness-control.sh up"
 
+# prtsc
+riverctl map normal $mod Print spawn "$SCRIPT_HOME/screenshot.sh"
+
 # windows management
-riverctl map -release normal ${mod} q close
+riverctl map -release normal ${mod}+Shift q close
 
 riverctl map normal $mod f toggle-fullscreen
 riverctl map normal ${mod}+Shift space toggle-float

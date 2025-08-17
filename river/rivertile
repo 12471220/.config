@@ -6,7 +6,7 @@
 mod=Mod4
 
 riverctl default-layout rivertile
-rivertile -view-padding 6 -outer-padding 6 -main-ratio 0.60 &
+rivertile -view-padding 6 -outer-padding 0 -main-ratio 0.60 &
 
 # adjust ratio
 riverctl map -repeat normal $mod h send-layout-cmd rivertile "main-ratio -0.05"

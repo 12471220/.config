@@ -4,15 +4,15 @@
 # river/autostart
 
 # -q: quiet, don"t print errors
-killall -q swaybg fcitx5 notifyd.sh dam
+killall -q swaybg notifyd.sh waybar
 
 riverctl spawn "$SCRIPT_HOME/bgimg-random.sh"
 
 riverctl spawn "$SCRIPT_HOME/foot-server.sh"
 riverctl spawn "$SCRIPT_HOME/notifyd.sh"
-
+riverctl spawn waybar
 # start if not running
-riverctl spawn "$SCRIPT_HOME/std/std-dambar.sh | dam"
+#riverctl spawn "$SCRIPT_HOME/dam.sh"
 
 pgrep "swayidle" || riverctl spawn "swayidle"
 
@@ -20,4 +20,4 @@ pgrep "swayidle" || riverctl spawn "swayidle"
 
 pgrep "mako" || riverctl spawn "mako"
 
-riverctl spawn "fcitx5 -d"
+pgrep "fcitx5" || fcitx5 -d
