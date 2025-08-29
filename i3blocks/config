@@ -14,11 +14,15 @@ color=#ffffff
 
 [weather]
 #command=node ./scripts/weather/weather.js
-command=. $HOME/.local/scripts/std-wttr.sh
+command=$SCRIPT_HOME/std/std-weather-hf.sh
 interval=1800
 
 [cpu]
 command=./scripts/cpu.sh
+interval=3
+
+[cpu_temp]
+command=$SCRIPT_HOME/std/std-cpu-temp.sh
 interval=3
 
 [memory]
@@ -26,28 +30,27 @@ command=./scripts/memory.sh
 interval=3
 
 [ethernet]
-command=./scripts/ethernet.sh
+command=$SCRIPT_HOME/std/std-ethernet-icon.sh
 interval=10
 
 [wifi]
-command=./scripts/wifi.sh
+command=$SCRIPT_HOME/std/std-wifi-icon.sh
 interval=10
 
 [volume]
-command=./scripts/volume.sh
+command=$SCRIPT_HOME/std/std-volume-icon.sh
 interval=5
 
 [brightness]
-command= ./scripts/brightness.sh
+command= $SCRIPT_HOME/std/std-brightness-icon.sh
 interval=5
 
 [battery]
-command=./scripts/battery.sh
+command=$SCRIPT_HOME/std/std-battery-icon.sh
 interval=30
 
 [time]
-command= date +"%a %m/%d %H:%M"
-command=. $HOME/.local/scripts/std-datetime.sh
+command=$SCRIPT_HOME/std/std-datetime-icon.sh
 interval=20
 
 [traysplit]
