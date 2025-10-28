@@ -1,8 +1,8 @@
 modules/
 zsh_history*
 .zcompdump*
-init.zsh*
-zimfw.zsh*
+#init.zsh*
+#zimfw.zsh*
 .zcompcache/
 login_init.zsh
 .latest_version
