@@ -1,6 +1,6 @@
 return {
-  "vim-airline/vim-airline"
-  , "connorholyday/vim-snazzy"
+  "connorholyday/vim-snazzy"
+  -- , "vim-airline/vim-airline"
   -- , "morhetz/gruvbox"
   , "github/copilot.vim"
 }

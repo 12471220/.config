@@ -32,5 +32,8 @@ require("lazy").setup({
 	-- colorscheme that will be used when installing plugins.
 	install = { colorscheme = { "snazzy" } },
 	-- automatically check for plugin updates
-	checker = { enabled = true },
+    checker = {
+        enabled = false, -- 关闭自动检查更新
+        notify = false,  -- 即使检查更新，也不要弹出通知
+    },
 })
