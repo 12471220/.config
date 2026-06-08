@@ -1,5 +1,7 @@
 # PATH additions
 # Requires: 00-env.sh (ENV_HOME, NODE_HOME, GO_HOME, GOPATH, MAVEN_HOME, CUDA_HOME, RISCV_TOOLS_HOME, BUN_INSTALL)
+# typeset -U keeps PATH entries unique — prevents duplication on reload
+typeset -U PATH
 
 #export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$SCRIPT_HOME:$PATH"

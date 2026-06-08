@@ -1,8 +1,15 @@
+# ZimFW (auto-generated)
 modules/
-zsh_history*
-.zcompdump*
-#init.zsh*
-#zimfw.zsh*
-.zcompcache/
-login_init.zsh
 .latest_version
+
+# Zsh cache
+.zcompcache/
+.zcompdump*
+zsh_history*
+.zsh_sessions/
+
+# Backup files
+*.old
+
+# Deprecated
+login_init.zsh
